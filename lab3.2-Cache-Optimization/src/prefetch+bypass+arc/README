@@ -1,0 +1,16 @@
+This folder contains files making up the cache simulator and trace files
+
+1. make
+'make' to compile
+'make clean' to remove compiled files
+
+2. run
+'./sim 1.trace' to run the simulator with 1.trace
+'./sim 2.trace' to run the simulator with 2.trace
+You can replace the trace file to test new traces
+
+3. result
+After executing the request towards the trace file, the simulator will give the following results:
+a. Trace count, which means the number of accesses in the trace;
+b. Hit count, which means the number of hits in the process;
+c. Time, which means the total time consumed in the process.

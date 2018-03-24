@@ -1,0 +1,162 @@
+Simulation.cpp: In function ‘void simulate()’:
+Simulation.cpp:193:48: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘REG {aka long long unsigned int}’ [-Wformat=]
+           printf("reg[%d] = 0x%x\n", i, reg[i] );
+                                                ^
+Simulation.cpp:286:44: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘REG {aka long long unsigned int}’ [-Wformat=]
+       printf("reg[%d] = 0x%x\n", i, reg[i] );
+                                            ^
+Simulation.cpp: In function ‘void IF()’:
+Simulation.cpp:321:49: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+  printf("cycle %d fetch, PC:0x%x\n", cycle, PC*4);
+                                                 ^
+Simulation.cpp: In function ‘void ID()’:
+Simulation.cpp:350:56: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+  printf("cycle %d decode, PC:0x%x\n", cycle, IF_ID.PC*4);
+                                                        ^
+Simulation.cpp:388:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="ADDW";
+             ^
+Simulation.cpp:393:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SUBW";
+             ^
+Simulation.cpp:398:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="MULW";
+             ^
+Simulation.cpp:403:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="DIVW";
+             ^
+Simulation.cpp:427:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="ADD";
+             ^
+Simulation.cpp:432:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="MUL";
+             ^
+Simulation.cpp:437:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="MULH";
+             ^
+Simulation.cpp:442:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SUB";
+             ^
+Simulation.cpp:447:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SLL";
+             ^
+Simulation.cpp:456:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="DIV";
+             ^
+Simulation.cpp:461:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SRL";
+             ^
+Simulation.cpp:466:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SRA";
+             ^
+Simulation.cpp:471:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="OR";
+             ^
+Simulation.cpp:476:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="REM";
+             ^
+Simulation.cpp:481:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="AND";
+             ^
+Simulation.cpp:486:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SLT";
+             ^
+Simulation.cpp:510:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="LB";
+              ^
+Simulation.cpp:514:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="LH";
+              ^
+Simulation.cpp:518:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="LW";
+              ^
+Simulation.cpp:522:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="LD";
+              ^
+Simulation.cpp:547:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="ADDI";
+              ^
+Simulation.cpp:552:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SLLI";
+              ^
+Simulation.cpp:556:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SLTI";
+              ^
+Simulation.cpp:560:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="XORI";
+              ^
+Simulation.cpp:567:15: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+      inst_name="SRLI";
+               ^
+Simulation.cpp:573:15: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+      inst_name="SRAI";
+               ^
+Simulation.cpp:578:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="ORI";
+              ^
+Simulation.cpp:582:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="ANDI";
+              ^
+Simulation.cpp:606:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="ADDIW";
+             ^
+Simulation.cpp:611:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SLLIW";
+             ^
+Simulation.cpp:616:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SRLIW";
+             ^
+Simulation.cpp:640:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="JALR";
+            ^
+Simulation.cpp:667:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SB";
+              ^
+Simulation.cpp:672:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SH";
+              ^
+Simulation.cpp:677:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SW";
+              ^
+Simulation.cpp:682:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SD";
+              ^
+Simulation.cpp:714:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="BEQ";
+              ^
+Simulation.cpp:718:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="BNE";
+              ^
+Simulation.cpp:722:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="BLT";
+              ^
+Simulation.cpp:726:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="BGE";
+              ^
+Simulation.cpp:750:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="AUIPC";
+            ^
+Simulation.cpp:770:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="LUI";
+            ^
+Simulation.cpp:795:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="JAL";
+            ^
+Simulation.cpp:799:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="UNK";
+            ^
+Simulation.cpp: In function ‘void EX()’:
+Simulation.cpp:911:48: warning: too many arguments for format [-Wformat-extra-args]
+         printf("its PC is:", ID_EX_old.PC, '\n');
+                                                ^
+Simulation.cpp:914:57: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+  printf("cycle %d execute, PC:0x%x\n", cycle, ID_EX.PC*4);
+                                                         ^
+Simulation.cpp: In function ‘void MEM()’:
+Simulation.cpp:1206:54: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+  printf("cycle %d MEM, PC:0x%x\n", cycle, EX_MEM.PC*4);
+                                                      ^
+Simulation.cpp: In function ‘void WB()’:
+Simulation.cpp:1298:60: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+  printf("cycle %d WriteBack, PC:0x%x\n", cycle, MEM_WB.PC*4);
+                                                            ^

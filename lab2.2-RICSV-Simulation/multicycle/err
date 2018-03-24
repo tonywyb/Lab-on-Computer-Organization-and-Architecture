@@ -1,0 +1,146 @@
+multicycle_Simulation.cpp: In function ‘void simulate()’:
+multicycle_Simulation.cpp:162:48: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘REG {aka long long unsigned int}’ [-Wformat=]
+           printf("reg[%d] = 0x%x\n", i, reg[i] );
+                                                ^
+multicycle_Simulation.cpp:233:44: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘REG {aka long long unsigned int}’ [-Wformat=]
+       printf("reg[%d] = 0x%x\n", i, reg[i] );
+                                            ^
+multicycle_Simulation.cpp: In function ‘void ID()’:
+multicycle_Simulation.cpp:345:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="ADDW";
+             ^
+multicycle_Simulation.cpp:350:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SUBW";
+             ^
+multicycle_Simulation.cpp:355:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="MULW";
+             ^
+multicycle_Simulation.cpp:360:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="DIVW";
+             ^
+multicycle_Simulation.cpp:384:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="ADD";
+             ^
+multicycle_Simulation.cpp:389:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="MUL";
+             ^
+multicycle_Simulation.cpp:394:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="MULH";
+             ^
+multicycle_Simulation.cpp:399:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SUB";
+             ^
+multicycle_Simulation.cpp:404:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SLL";
+             ^
+multicycle_Simulation.cpp:413:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="DIV";
+             ^
+multicycle_Simulation.cpp:418:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SRL";
+             ^
+multicycle_Simulation.cpp:423:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SRA";
+             ^
+multicycle_Simulation.cpp:428:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="OR";
+             ^
+multicycle_Simulation.cpp:433:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="REM";
+             ^
+multicycle_Simulation.cpp:438:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="AND";
+             ^
+multicycle_Simulation.cpp:443:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SLT";
+             ^
+multicycle_Simulation.cpp:467:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="LB";
+              ^
+multicycle_Simulation.cpp:471:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="LH";
+              ^
+multicycle_Simulation.cpp:475:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="LW";
+              ^
+multicycle_Simulation.cpp:479:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="LD";
+              ^
+multicycle_Simulation.cpp:503:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="ADDI";
+              ^
+multicycle_Simulation.cpp:508:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SLLI";
+              ^
+multicycle_Simulation.cpp:512:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SLTI";
+              ^
+multicycle_Simulation.cpp:516:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="XORI";
+              ^
+multicycle_Simulation.cpp:523:15: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+      inst_name="SRLI";
+               ^
+multicycle_Simulation.cpp:529:15: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+      inst_name="SRAI";
+               ^
+multicycle_Simulation.cpp:534:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="ORI";
+              ^
+multicycle_Simulation.cpp:538:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="ANDI";
+              ^
+multicycle_Simulation.cpp:562:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="ADDIW";
+             ^
+multicycle_Simulation.cpp:567:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SLLIW";
+             ^
+multicycle_Simulation.cpp:572:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    inst_name="SRLIW";
+             ^
+multicycle_Simulation.cpp:596:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="JALR";
+            ^
+multicycle_Simulation.cpp:643:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SB";
+              ^
+multicycle_Simulation.cpp:648:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SH";
+              ^
+multicycle_Simulation.cpp:653:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SW";
+              ^
+multicycle_Simulation.cpp:658:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="SD";
+              ^
+multicycle_Simulation.cpp:690:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="BEQ";
+              ^
+multicycle_Simulation.cpp:694:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="BNE";
+              ^
+multicycle_Simulation.cpp:698:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="BLT";
+              ^
+multicycle_Simulation.cpp:702:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     inst_name="BGE";
+              ^
+multicycle_Simulation.cpp:726:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="AUIPC";
+            ^
+multicycle_Simulation.cpp:746:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="LUI";
+            ^
+multicycle_Simulation.cpp:771:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="JAL";
+            ^
+multicycle_Simulation.cpp:775:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   inst_name="UNK";
+            ^
+multicycle_Simulation.cpp:816:28: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("rs1 = %llu\n", rs1);
+                            ^
+multicycle_Simulation.cpp:817:28: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("rs2 = %llu\n", rs2);
+                            ^

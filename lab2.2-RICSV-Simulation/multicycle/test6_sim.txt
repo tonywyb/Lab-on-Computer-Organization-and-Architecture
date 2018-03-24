@@ -1,0 +1,7533 @@
+read elf header done!
+read sections done!
+read program done!
+read symtable done!
+start running!
+read_elf complete!
+gp is: 11d00
+endPC is: 101a8
+entry is: 10000
+madr is: 10150
+vadr is: 10000
+cadr is: 1000
+csize is: 5408
+====================================
+load memory complete!
+====================================
+the first inst is:fe010113
+PC=4054
+real PC=10150
+instruction is fe010113
+IF done!
+opcode is:13
+imm is 0xffffffe0
+imm is -32
+inst_name is ADDI
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 2
+rs2 = 0
+PC = 0x4055
+real PC = 0x10154
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffe0
+EX input2 = -32
+ALUout = 2faf060
+ALUout = 49999968
+PC=0x4055
+real PC=0x10154
+EX done!
+PC=4055
+real PC=10154
+MEM done!
+write 2faf060 to Reg[2]
+write 49999968 to Reg[2]
+PC=0x4055
+real_PC=0x10154
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 0
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 0
+reg[15] is 0
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4055
+real PC=10154
+instruction is 813c23
+IF done!
+opcode is:23
+imm is 0x18
+imm is 24
+inst_name is SD
+Rs1 = 49999968
+Rs2 = 0
+rs1 = 2
+rs2 = 8
+PC = 0x4056
+real PC = 0x10158
+ID done!
+EX input1 = 0x2faf060
+EX input1 = 49999968
+EX input2 = 0x18
+EX input2 = 24
+ALUout = 2faf078
+ALUout = 49999992
+PC=0x4056
+real PC=0x10158
+EX done!
+write 0 to memory
+write 0 to memory
+PC=4056
+real PC=10158
+MEM done!
+PC=0x4056
+real_PC=0x10158
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 0
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 0
+reg[15] is 0
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4056
+real PC=10158
+instruction is 2010413
+IF done!
+opcode is:13
+imm is 0x20
+imm is 32
+inst_name is ADDI
+Rs1 = 49999968
+Rs2 = 140729730538064
+rs1 = 2
+rs2 = 0
+PC = 0x4057
+real PC = 0x1015c
+ID done!
+EX input1 = 0x2faf060
+EX input1 = 49999968
+EX input2 = 0x20
+EX input2 = 32
+ALUout = 2faf080
+ALUout = 50000000
+PC=0x4057
+real PC=0x1015c
+EX done!
+PC=4057
+real PC=1015c
+MEM done!
+write 2faf080 to Reg[8]
+write 50000000 to Reg[8]
+PC=0x4057
+real_PC=0x1015c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 0
+reg[15] is 0
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4057
+real PC=1015c
+instruction is fe042623
+IF done!
+opcode is:23
+imm is 0xffffffec
+imm is -20
+inst_name is SW
+Rs1 = 50000000
+Rs2 = 0
+rs1 = 8
+rs2 = 0
+PC = 0x4058
+real PC = 0x10160
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4058
+real PC=0x10160
+EX done!
+write 0 to memory
+write 0 to memory
+PC=4058
+real PC=10160
+MEM done!
+PC=0x4058
+real_PC=0x10160
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 0
+reg[15] is 0
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4058
+real PC=10160
+instruction is 300793
+IF done!
+opcode is:13
+imm is 0x3
+imm is 3
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 0
+rs2 = 0
+PC = 0x4059
+real PC = 0x10164
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x3
+EX input2 = 3
+ALUout = 3
+ALUout = 3
+PC=0x4059
+real PC=0x10164
+EX done!
+PC=4059
+real PC=10164
+MEM done!
+write 3 to Reg[15]
+write 3 to Reg[15]
+PC=0x4059
+real_PC=0x10164
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 0
+reg[15] is 3
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4059
+real PC=10164
+instruction is fef42623
+IF done!
+opcode is:23
+imm is 0xffffffec
+imm is -20
+inst_name is SW
+Rs1 = 50000000
+Rs2 = 3
+rs1 = 8
+rs2 = 15
+PC = 0x405a
+real PC = 0x10168
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405a
+real PC=0x10168
+EX done!
+write 3 to memory
+write 3 to memory
+PC=405a
+real PC=10168
+MEM done!
+PC=0x405a
+real_PC=0x10168
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 0
+reg[15] is 3
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405a
+real PC=10168
+instruction is fec42703
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405b
+real PC = 0x1016c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405b
+real PC=0x1016c
+EX done!
+read 3 from memory
+read 3 from memory
+PC=405b
+real PC=1016c
+MEM done!
+write 3 to Reg[14]
+write 3 to Reg[14]
+PC=0x405b
+real_PC=0x1016c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 3
+reg[15] is 3
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405b
+real PC=1016c
+instruction is f00793
+IF done!
+opcode is:13
+imm is 0xf
+imm is 15
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 0
+rs2 = 0
+PC = 0x405c
+real PC = 0x10170
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0xf
+EX input2 = 15
+ALUout = f
+ALUout = 15
+PC=0x405c
+real PC=0x10170
+EX done!
+PC=405c
+real PC=10170
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x405c
+real_PC=0x10170
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 3
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405c
+real PC=10170
+instruction is 2e7c263
+IF done!
+opcode is:63
+imm is 0x9
+imm is 9
+inst_name is BLT
+Rs1 = 15
+Rs2 = 3
+rs1 = 15
+rs2 = 14
+PC = 0x405d
+real PC = 0x10174
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x3
+EX input2 = 3
+ALUout = c
+ALUout = 12
+PC=0x405d
+real PC=0x10174
+EX done!
+PC=405d
+real PC=10174
+MEM done!
+PC=0x405d
+real_PC=0x10174
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 3
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405d
+real PC=10174
+instruction is 8081a703
+IF done!
+opcode is:3
+imm is 0xfffff808
+imm is -2040
+inst_name is LW
+Rs1 = 72960
+Rs2 = 140729730538064
+rs1 = 3
+rs2 = 0
+PC = 0x405e
+real PC = 0x10178
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff808
+EX input2 = -2040
+ALUout = 11508
+ALUout = 70920
+PC=0x405e
+real PC=0x10178
+EX done!
+read f from memory
+read 15 from memory
+PC=405e
+real PC=10178
+MEM done!
+write f to Reg[14]
+write 15 to Reg[14]
+PC=0x405e
+real_PC=0x10178
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405e
+real PC=10178
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405f
+real PC = 0x1017c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405f
+real PC=0x1017c
+EX done!
+read 3 from memory
+read 3 from memory
+PC=405f
+real PC=1017c
+MEM done!
+write 3 to Reg[15]
+write 3 to Reg[15]
+PC=0x405f
+real_PC=0x1017c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 3
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405f
+real PC=1017c
+instruction is 2f7473b
+IF done!
+opcode is:3b
+imm is 0xba136620
+imm is -1173133792
+inst_name is DIVW
+Rs1 = 15
+Rs2 = 3
+rs1 = 14
+rs2 = 15
+PC = 0x4060
+real PC = 0x10180
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x3
+EX input2 = 3
+ALUout = 5
+ALUout = 5
+PC=0x4060
+real PC=0x10180
+EX done!
+PC=4060
+real PC=10180
+MEM done!
+write 5 to Reg[14]
+write 5 to Reg[14]
+PC=0x4060
+real_PC=0x10180
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 0
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 5
+reg[15] is 3
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4060
+real PC=10180
+instruction is 82e1a023
+IF done!
+opcode is:23
+imm is 0xfffff820
+imm is -2016
+inst_name is SW
+Rs1 = 72960
+Rs2 = 5
+rs1 = 3
+rs2 = 14
+PC = 0x4061
+real PC = 0x10184
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff820
+EX input2 = -2016
+ALUout = 11520
+ALUout = 70944
+PC=0x4061
+real PC=0x10184
+EX done!
+write 5 to memory
+write 5 to memory
+PC=4061
+real PC=10184
+MEM done!
+PC=0x4061
+real_PC=0x10184
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 5
+reg[15] is 3
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4061
+real PC=10184
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x4062
+real PC = 0x10188
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4062
+real PC=0x10188
+EX done!
+read 3 from memory
+read 3 from memory
+PC=4062
+real PC=10188
+MEM done!
+write 3 to Reg[15]
+write 3 to Reg[15]
+PC=0x4062
+real_PC=0x10188
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 5
+reg[15] is 3
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4062
+real PC=10188
+instruction is 37879b
+IF done!
+opcode is:1b
+imm is 0x3
+imm is 3
+inst_name is ADDIW
+Rs1 = 3
+Rs2 = 140729730538064
+rs1 = 15
+rs2 = 0
+PC = 0x4063
+real PC = 0x1018c
+ID done!
+EX input1 = 0x3
+EX input1 = 3
+EX input2 = 0x3
+EX input2 = 3
+ALUout = 6
+ALUout = 6
+PC=0x4063
+real PC=0x1018c
+EX done!
+PC=4063
+real PC=1018c
+MEM done!
+write 6 to Reg[15]
+write 6 to Reg[15]
+PC=0x4063
+real_PC=0x1018c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 5
+reg[15] is 6
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4063
+real PC=1018c
+instruction is fef42623
+IF done!
+opcode is:23
+imm is 0xffffffec
+imm is -20
+inst_name is SW
+Rs1 = 50000000
+Rs2 = 6
+rs1 = 8
+rs2 = 15
+PC = 0x4064
+real PC = 0x10190
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4064
+real PC=0x10190
+EX done!
+write 6 to memory
+write 6 to memory
+PC=4064
+real PC=10190
+MEM done!
+PC=0x4064
+real_PC=0x10190
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 5
+reg[15] is 6
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4064
+real PC=10190
+instruction is fd9ff06f
+IF done!
+opcode is:6f
+imm is 0xfffffff6
+imm is -10
+inst_name is JAL
+Rs1 = 16484
+Rs2 = 18446744073709551606
+rs1 = 8
+rs2 = 0
+PC = 0x4065
+real PC = 0x10194
+ID done!
+EX input1 = 0x4064
+EX input1 = 16484
+EX input2 = 0xfffffffffffffff6
+EX input2 = -10
+ALUout = 405a
+ALUout = 16474
+PC=0x405a
+real PC=0x10168
+EX done!
+PC=405a
+real PC=10168
+MEM done!
+write 4065 to Reg[0]
+write 16485 to Reg[0]
+PC=0x405a
+real_PC=0x10168
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 16485
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 5
+reg[15] is 6
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405a
+real PC=10168
+instruction is fec42703
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405b
+real PC = 0x1016c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405b
+real PC=0x1016c
+EX done!
+read 6 from memory
+read 6 from memory
+PC=405b
+real PC=1016c
+MEM done!
+write 6 to Reg[14]
+write 6 to Reg[14]
+PC=0x405b
+real_PC=0x1016c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 6
+reg[15] is 6
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405b
+real PC=1016c
+instruction is f00793
+IF done!
+opcode is:13
+imm is 0xf
+imm is 15
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 0
+rs2 = 0
+PC = 0x405c
+real PC = 0x10170
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0xf
+EX input2 = 15
+ALUout = f
+ALUout = 15
+PC=0x405c
+real PC=0x10170
+EX done!
+PC=405c
+real PC=10170
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x405c
+real_PC=0x10170
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 6
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405c
+real PC=10170
+instruction is 2e7c263
+IF done!
+opcode is:63
+imm is 0x9
+imm is 9
+inst_name is BLT
+Rs1 = 15
+Rs2 = 6
+rs1 = 15
+rs2 = 14
+PC = 0x405d
+real PC = 0x10174
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x6
+EX input2 = 6
+ALUout = 9
+ALUout = 9
+PC=0x405d
+real PC=0x10174
+EX done!
+PC=405d
+real PC=10174
+MEM done!
+PC=0x405d
+real_PC=0x10174
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 6
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405d
+real PC=10174
+instruction is 8081a703
+IF done!
+opcode is:3
+imm is 0xfffff808
+imm is -2040
+inst_name is LW
+Rs1 = 72960
+Rs2 = 140729730538064
+rs1 = 3
+rs2 = 0
+PC = 0x405e
+real PC = 0x10178
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff808
+EX input2 = -2040
+ALUout = 11508
+ALUout = 70920
+PC=0x405e
+real PC=0x10178
+EX done!
+read f from memory
+read 15 from memory
+PC=405e
+real PC=10178
+MEM done!
+write f to Reg[14]
+write 15 to Reg[14]
+PC=0x405e
+real_PC=0x10178
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405e
+real PC=10178
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405f
+real PC = 0x1017c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405f
+real PC=0x1017c
+EX done!
+read 6 from memory
+read 6 from memory
+PC=405f
+real PC=1017c
+MEM done!
+write 6 to Reg[15]
+write 6 to Reg[15]
+PC=0x405f
+real_PC=0x1017c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 6
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405f
+real PC=1017c
+instruction is 2f7473b
+IF done!
+opcode is:3b
+imm is 0xba136620
+imm is -1173133792
+inst_name is DIVW
+Rs1 = 15
+Rs2 = 6
+rs1 = 14
+rs2 = 15
+PC = 0x4060
+real PC = 0x10180
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x6
+EX input2 = 6
+ALUout = 2
+ALUout = 2
+PC=0x4060
+real PC=0x10180
+EX done!
+PC=4060
+real PC=10180
+MEM done!
+write 2 to Reg[14]
+write 2 to Reg[14]
+PC=0x4060
+real_PC=0x10180
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 5
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 2
+reg[15] is 6
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4060
+real PC=10180
+instruction is 82e1a023
+IF done!
+opcode is:23
+imm is 0xfffff820
+imm is -2016
+inst_name is SW
+Rs1 = 72960
+Rs2 = 2
+rs1 = 3
+rs2 = 14
+PC = 0x4061
+real PC = 0x10184
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff820
+EX input2 = -2016
+ALUout = 11520
+ALUout = 70944
+PC=0x4061
+real PC=0x10184
+EX done!
+write 2 to memory
+write 2 to memory
+PC=4061
+real PC=10184
+MEM done!
+PC=0x4061
+real_PC=0x10184
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 2
+reg[15] is 6
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4061
+real PC=10184
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x4062
+real PC = 0x10188
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4062
+real PC=0x10188
+EX done!
+read 6 from memory
+read 6 from memory
+PC=4062
+real PC=10188
+MEM done!
+write 6 to Reg[15]
+write 6 to Reg[15]
+PC=0x4062
+real_PC=0x10188
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 2
+reg[15] is 6
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4062
+real PC=10188
+instruction is 37879b
+IF done!
+opcode is:1b
+imm is 0x3
+imm is 3
+inst_name is ADDIW
+Rs1 = 6
+Rs2 = 140729730538064
+rs1 = 15
+rs2 = 0
+PC = 0x4063
+real PC = 0x1018c
+ID done!
+EX input1 = 0x6
+EX input1 = 6
+EX input2 = 0x3
+EX input2 = 3
+ALUout = 9
+ALUout = 9
+PC=0x4063
+real PC=0x1018c
+EX done!
+PC=4063
+real PC=1018c
+MEM done!
+write 9 to Reg[15]
+write 9 to Reg[15]
+PC=0x4063
+real_PC=0x1018c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 2
+reg[15] is 9
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4063
+real PC=1018c
+instruction is fef42623
+IF done!
+opcode is:23
+imm is 0xffffffec
+imm is -20
+inst_name is SW
+Rs1 = 50000000
+Rs2 = 9
+rs1 = 8
+rs2 = 15
+PC = 0x4064
+real PC = 0x10190
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4064
+real PC=0x10190
+EX done!
+write 9 to memory
+write 9 to memory
+PC=4064
+real PC=10190
+MEM done!
+PC=0x4064
+real_PC=0x10190
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 2
+reg[15] is 9
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4064
+real PC=10190
+instruction is fd9ff06f
+IF done!
+opcode is:6f
+imm is 0xfffffff6
+imm is -10
+inst_name is JAL
+Rs1 = 16484
+Rs2 = 18446744073709551606
+rs1 = 8
+rs2 = 0
+PC = 0x4065
+real PC = 0x10194
+ID done!
+EX input1 = 0x4064
+EX input1 = 16484
+EX input2 = 0xfffffffffffffff6
+EX input2 = -10
+ALUout = 405a
+ALUout = 16474
+PC=0x405a
+real PC=0x10168
+EX done!
+PC=405a
+real PC=10168
+MEM done!
+write 4065 to Reg[0]
+write 16485 to Reg[0]
+PC=0x405a
+real_PC=0x10168
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 16485
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 2
+reg[15] is 9
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405a
+real PC=10168
+instruction is fec42703
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405b
+real PC = 0x1016c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405b
+real PC=0x1016c
+EX done!
+read 9 from memory
+read 9 from memory
+PC=405b
+real PC=1016c
+MEM done!
+write 9 to Reg[14]
+write 9 to Reg[14]
+PC=0x405b
+real_PC=0x1016c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 9
+reg[15] is 9
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405b
+real PC=1016c
+instruction is f00793
+IF done!
+opcode is:13
+imm is 0xf
+imm is 15
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 0
+rs2 = 0
+PC = 0x405c
+real PC = 0x10170
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0xf
+EX input2 = 15
+ALUout = f
+ALUout = 15
+PC=0x405c
+real PC=0x10170
+EX done!
+PC=405c
+real PC=10170
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x405c
+real_PC=0x10170
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 9
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405c
+real PC=10170
+instruction is 2e7c263
+IF done!
+opcode is:63
+imm is 0x9
+imm is 9
+inst_name is BLT
+Rs1 = 15
+Rs2 = 9
+rs1 = 15
+rs2 = 14
+PC = 0x405d
+real PC = 0x10174
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x9
+EX input2 = 9
+ALUout = 6
+ALUout = 6
+PC=0x405d
+real PC=0x10174
+EX done!
+PC=405d
+real PC=10174
+MEM done!
+PC=0x405d
+real_PC=0x10174
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 9
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405d
+real PC=10174
+instruction is 8081a703
+IF done!
+opcode is:3
+imm is 0xfffff808
+imm is -2040
+inst_name is LW
+Rs1 = 72960
+Rs2 = 140729730538064
+rs1 = 3
+rs2 = 0
+PC = 0x405e
+real PC = 0x10178
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff808
+EX input2 = -2040
+ALUout = 11508
+ALUout = 70920
+PC=0x405e
+real PC=0x10178
+EX done!
+read f from memory
+read 15 from memory
+PC=405e
+real PC=10178
+MEM done!
+write f to Reg[14]
+write 15 to Reg[14]
+PC=0x405e
+real_PC=0x10178
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405e
+real PC=10178
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405f
+real PC = 0x1017c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405f
+real PC=0x1017c
+EX done!
+read 9 from memory
+read 9 from memory
+PC=405f
+real PC=1017c
+MEM done!
+write 9 to Reg[15]
+write 9 to Reg[15]
+PC=0x405f
+real_PC=0x1017c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 9
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405f
+real PC=1017c
+instruction is 2f7473b
+IF done!
+opcode is:3b
+imm is 0xba136620
+imm is -1173133792
+inst_name is DIVW
+Rs1 = 15
+Rs2 = 9
+rs1 = 14
+rs2 = 15
+PC = 0x4060
+real PC = 0x10180
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x9
+EX input2 = 9
+ALUout = 1
+ALUout = 1
+PC=0x4060
+real PC=0x10180
+EX done!
+PC=4060
+real PC=10180
+MEM done!
+write 1 to Reg[14]
+write 1 to Reg[14]
+PC=0x4060
+real_PC=0x10180
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 2
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 9
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4060
+real PC=10180
+instruction is 82e1a023
+IF done!
+opcode is:23
+imm is 0xfffff820
+imm is -2016
+inst_name is SW
+Rs1 = 72960
+Rs2 = 1
+rs1 = 3
+rs2 = 14
+PC = 0x4061
+real PC = 0x10184
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff820
+EX input2 = -2016
+ALUout = 11520
+ALUout = 70944
+PC=0x4061
+real PC=0x10184
+EX done!
+write 1 to memory
+write 1 to memory
+PC=4061
+real PC=10184
+MEM done!
+PC=0x4061
+real_PC=0x10184
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 9
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4061
+real PC=10184
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x4062
+real PC = 0x10188
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4062
+real PC=0x10188
+EX done!
+read 9 from memory
+read 9 from memory
+PC=4062
+real PC=10188
+MEM done!
+write 9 to Reg[15]
+write 9 to Reg[15]
+PC=0x4062
+real_PC=0x10188
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 9
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4062
+real PC=10188
+instruction is 37879b
+IF done!
+opcode is:1b
+imm is 0x3
+imm is 3
+inst_name is ADDIW
+Rs1 = 9
+Rs2 = 140729730538064
+rs1 = 15
+rs2 = 0
+PC = 0x4063
+real PC = 0x1018c
+ID done!
+EX input1 = 0x9
+EX input1 = 9
+EX input2 = 0x3
+EX input2 = 3
+ALUout = c
+ALUout = 12
+PC=0x4063
+real PC=0x1018c
+EX done!
+PC=4063
+real PC=1018c
+MEM done!
+write c to Reg[15]
+write 12 to Reg[15]
+PC=0x4063
+real_PC=0x1018c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 12
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4063
+real PC=1018c
+instruction is fef42623
+IF done!
+opcode is:23
+imm is 0xffffffec
+imm is -20
+inst_name is SW
+Rs1 = 50000000
+Rs2 = 12
+rs1 = 8
+rs2 = 15
+PC = 0x4064
+real PC = 0x10190
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4064
+real PC=0x10190
+EX done!
+write c to memory
+write 12 to memory
+PC=4064
+real PC=10190
+MEM done!
+PC=0x4064
+real_PC=0x10190
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 12
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4064
+real PC=10190
+instruction is fd9ff06f
+IF done!
+opcode is:6f
+imm is 0xfffffff6
+imm is -10
+inst_name is JAL
+Rs1 = 16484
+Rs2 = 18446744073709551606
+rs1 = 8
+rs2 = 0
+PC = 0x4065
+real PC = 0x10194
+ID done!
+EX input1 = 0x4064
+EX input1 = 16484
+EX input2 = 0xfffffffffffffff6
+EX input2 = -10
+ALUout = 405a
+ALUout = 16474
+PC=0x405a
+real PC=0x10168
+EX done!
+PC=405a
+real PC=10168
+MEM done!
+write 4065 to Reg[0]
+write 16485 to Reg[0]
+PC=0x405a
+real_PC=0x10168
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 16485
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 12
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405a
+real PC=10168
+instruction is fec42703
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405b
+real PC = 0x1016c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405b
+real PC=0x1016c
+EX done!
+read c from memory
+read 12 from memory
+PC=405b
+real PC=1016c
+MEM done!
+write c to Reg[14]
+write 12 to Reg[14]
+PC=0x405b
+real_PC=0x1016c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 12
+reg[15] is 12
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405b
+real PC=1016c
+instruction is f00793
+IF done!
+opcode is:13
+imm is 0xf
+imm is 15
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 0
+rs2 = 0
+PC = 0x405c
+real PC = 0x10170
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0xf
+EX input2 = 15
+ALUout = f
+ALUout = 15
+PC=0x405c
+real PC=0x10170
+EX done!
+PC=405c
+real PC=10170
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x405c
+real_PC=0x10170
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 12
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405c
+real PC=10170
+instruction is 2e7c263
+IF done!
+opcode is:63
+imm is 0x9
+imm is 9
+inst_name is BLT
+Rs1 = 15
+Rs2 = 12
+rs1 = 15
+rs2 = 14
+PC = 0x405d
+real PC = 0x10174
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0xc
+EX input2 = 12
+ALUout = 3
+ALUout = 3
+PC=0x405d
+real PC=0x10174
+EX done!
+PC=405d
+real PC=10174
+MEM done!
+PC=0x405d
+real_PC=0x10174
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 12
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405d
+real PC=10174
+instruction is 8081a703
+IF done!
+opcode is:3
+imm is 0xfffff808
+imm is -2040
+inst_name is LW
+Rs1 = 72960
+Rs2 = 140729730538064
+rs1 = 3
+rs2 = 0
+PC = 0x405e
+real PC = 0x10178
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff808
+EX input2 = -2040
+ALUout = 11508
+ALUout = 70920
+PC=0x405e
+real PC=0x10178
+EX done!
+read f from memory
+read 15 from memory
+PC=405e
+real PC=10178
+MEM done!
+write f to Reg[14]
+write 15 to Reg[14]
+PC=0x405e
+real_PC=0x10178
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405e
+real PC=10178
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405f
+real PC = 0x1017c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405f
+real PC=0x1017c
+EX done!
+read c from memory
+read 12 from memory
+PC=405f
+real PC=1017c
+MEM done!
+write c to Reg[15]
+write 12 to Reg[15]
+PC=0x405f
+real_PC=0x1017c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 12
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405f
+real PC=1017c
+instruction is 2f7473b
+IF done!
+opcode is:3b
+imm is 0xba136620
+imm is -1173133792
+inst_name is DIVW
+Rs1 = 15
+Rs2 = 12
+rs1 = 14
+rs2 = 15
+PC = 0x4060
+real PC = 0x10180
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0xc
+EX input2 = 12
+ALUout = 1
+ALUout = 1
+PC=0x4060
+real PC=0x10180
+EX done!
+PC=4060
+real PC=10180
+MEM done!
+write 1 to Reg[14]
+write 1 to Reg[14]
+PC=0x4060
+real_PC=0x10180
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 12
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4060
+real PC=10180
+instruction is 82e1a023
+IF done!
+opcode is:23
+imm is 0xfffff820
+imm is -2016
+inst_name is SW
+Rs1 = 72960
+Rs2 = 1
+rs1 = 3
+rs2 = 14
+PC = 0x4061
+real PC = 0x10184
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff820
+EX input2 = -2016
+ALUout = 11520
+ALUout = 70944
+PC=0x4061
+real PC=0x10184
+EX done!
+write 1 to memory
+write 1 to memory
+PC=4061
+real PC=10184
+MEM done!
+PC=0x4061
+real_PC=0x10184
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 12
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4061
+real PC=10184
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x4062
+real PC = 0x10188
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4062
+real PC=0x10188
+EX done!
+read c from memory
+read 12 from memory
+PC=4062
+real PC=10188
+MEM done!
+write c to Reg[15]
+write 12 to Reg[15]
+PC=0x4062
+real_PC=0x10188
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 12
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4062
+real PC=10188
+instruction is 37879b
+IF done!
+opcode is:1b
+imm is 0x3
+imm is 3
+inst_name is ADDIW
+Rs1 = 12
+Rs2 = 140729730538064
+rs1 = 15
+rs2 = 0
+PC = 0x4063
+real PC = 0x1018c
+ID done!
+EX input1 = 0xc
+EX input1 = 12
+EX input2 = 0x3
+EX input2 = 3
+ALUout = f
+ALUout = 15
+PC=0x4063
+real PC=0x1018c
+EX done!
+PC=4063
+real PC=1018c
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x4063
+real_PC=0x1018c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4063
+real PC=1018c
+instruction is fef42623
+IF done!
+opcode is:23
+imm is 0xffffffec
+imm is -20
+inst_name is SW
+Rs1 = 50000000
+Rs2 = 15
+rs1 = 8
+rs2 = 15
+PC = 0x4064
+real PC = 0x10190
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4064
+real PC=0x10190
+EX done!
+write f to memory
+write 15 to memory
+PC=4064
+real PC=10190
+MEM done!
+PC=0x4064
+real_PC=0x10190
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4064
+real PC=10190
+instruction is fd9ff06f
+IF done!
+opcode is:6f
+imm is 0xfffffff6
+imm is -10
+inst_name is JAL
+Rs1 = 16484
+Rs2 = 18446744073709551606
+rs1 = 8
+rs2 = 0
+PC = 0x4065
+real PC = 0x10194
+ID done!
+EX input1 = 0x4064
+EX input1 = 16484
+EX input2 = 0xfffffffffffffff6
+EX input2 = -10
+ALUout = 405a
+ALUout = 16474
+PC=0x405a
+real PC=0x10168
+EX done!
+PC=405a
+real PC=10168
+MEM done!
+write 4065 to Reg[0]
+write 16485 to Reg[0]
+PC=0x405a
+real_PC=0x10168
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 16485
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405a
+real PC=10168
+instruction is fec42703
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405b
+real PC = 0x1016c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405b
+real PC=0x1016c
+EX done!
+read f from memory
+read 15 from memory
+PC=405b
+real PC=1016c
+MEM done!
+write f to Reg[14]
+write 15 to Reg[14]
+PC=0x405b
+real_PC=0x1016c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405b
+real PC=1016c
+instruction is f00793
+IF done!
+opcode is:13
+imm is 0xf
+imm is 15
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 0
+rs2 = 0
+PC = 0x405c
+real PC = 0x10170
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0xf
+EX input2 = 15
+ALUout = f
+ALUout = 15
+PC=0x405c
+real PC=0x10170
+EX done!
+PC=405c
+real PC=10170
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x405c
+real_PC=0x10170
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405c
+real PC=10170
+instruction is 2e7c263
+IF done!
+opcode is:63
+imm is 0x9
+imm is 9
+inst_name is BLT
+Rs1 = 15
+Rs2 = 15
+rs1 = 15
+rs2 = 14
+PC = 0x405d
+real PC = 0x10174
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0xf
+EX input2 = 15
+ALUout = 0
+ALUout = 0
+PC=0x405d
+real PC=0x10174
+EX done!
+PC=405d
+real PC=10174
+MEM done!
+PC=0x405d
+real_PC=0x10174
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405d
+real PC=10174
+instruction is 8081a703
+IF done!
+opcode is:3
+imm is 0xfffff808
+imm is -2040
+inst_name is LW
+Rs1 = 72960
+Rs2 = 140729730538064
+rs1 = 3
+rs2 = 0
+PC = 0x405e
+real PC = 0x10178
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff808
+EX input2 = -2040
+ALUout = 11508
+ALUout = 70920
+PC=0x405e
+real PC=0x10178
+EX done!
+read f from memory
+read 15 from memory
+PC=405e
+real PC=10178
+MEM done!
+write f to Reg[14]
+write 15 to Reg[14]
+PC=0x405e
+real_PC=0x10178
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405e
+real PC=10178
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405f
+real PC = 0x1017c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405f
+real PC=0x1017c
+EX done!
+read f from memory
+read 15 from memory
+PC=405f
+real PC=1017c
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x405f
+real_PC=0x1017c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 15
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405f
+real PC=1017c
+instruction is 2f7473b
+IF done!
+opcode is:3b
+imm is 0xba136620
+imm is -1173133792
+inst_name is DIVW
+Rs1 = 15
+Rs2 = 15
+rs1 = 14
+rs2 = 15
+PC = 0x4060
+real PC = 0x10180
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0xf
+EX input2 = 15
+ALUout = 1
+ALUout = 1
+PC=0x4060
+real PC=0x10180
+EX done!
+PC=4060
+real PC=10180
+MEM done!
+write 1 to Reg[14]
+write 1 to Reg[14]
+PC=0x4060
+real_PC=0x10180
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4060
+real PC=10180
+instruction is 82e1a023
+IF done!
+opcode is:23
+imm is 0xfffff820
+imm is -2016
+inst_name is SW
+Rs1 = 72960
+Rs2 = 1
+rs1 = 3
+rs2 = 14
+PC = 0x4061
+real PC = 0x10184
+ID done!
+EX input1 = 0x11d00
+EX input1 = 72960
+EX input2 = 0xfffffffffffff820
+EX input2 = -2016
+ALUout = 11520
+ALUout = 70944
+PC=0x4061
+real PC=0x10184
+EX done!
+write 1 to memory
+write 1 to memory
+PC=4061
+real PC=10184
+MEM done!
+PC=0x4061
+real_PC=0x10184
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4061
+real PC=10184
+instruction is fec42783
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x4062
+real PC = 0x10188
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4062
+real PC=0x10188
+EX done!
+read f from memory
+read 15 from memory
+PC=4062
+real PC=10188
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x4062
+real_PC=0x10188
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4062
+real PC=10188
+instruction is 37879b
+IF done!
+opcode is:1b
+imm is 0x3
+imm is 3
+inst_name is ADDIW
+Rs1 = 15
+Rs2 = 140729730538064
+rs1 = 15
+rs2 = 0
+PC = 0x4063
+real PC = 0x1018c
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x3
+EX input2 = 3
+ALUout = 12
+ALUout = 18
+PC=0x4063
+real PC=0x1018c
+EX done!
+PC=4063
+real PC=1018c
+MEM done!
+write 12 to Reg[15]
+write 18 to Reg[15]
+PC=0x4063
+real_PC=0x1018c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 18
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4063
+real PC=1018c
+instruction is fef42623
+IF done!
+opcode is:23
+imm is 0xffffffec
+imm is -20
+inst_name is SW
+Rs1 = 50000000
+Rs2 = 18
+rs1 = 8
+rs2 = 15
+PC = 0x4064
+real PC = 0x10190
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x4064
+real PC=0x10190
+EX done!
+write 12 to memory
+write 18 to memory
+PC=4064
+real PC=10190
+MEM done!
+PC=0x4064
+real_PC=0x10190
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 18
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4064
+real PC=10190
+instruction is fd9ff06f
+IF done!
+opcode is:6f
+imm is 0xfffffff6
+imm is -10
+inst_name is JAL
+Rs1 = 16484
+Rs2 = 18446744073709551606
+rs1 = 8
+rs2 = 0
+PC = 0x4065
+real PC = 0x10194
+ID done!
+EX input1 = 0x4064
+EX input1 = 16484
+EX input2 = 0xfffffffffffffff6
+EX input2 = -10
+ALUout = 405a
+ALUout = 16474
+PC=0x405a
+real PC=0x10168
+EX done!
+PC=405a
+real PC=10168
+MEM done!
+write 4065 to Reg[0]
+write 16485 to Reg[0]
+PC=0x405a
+real_PC=0x10168
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 16485
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 1
+reg[15] is 18
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405a
+real PC=10168
+instruction is fec42703
+IF done!
+opcode is:3
+imm is 0xffffffec
+imm is -20
+inst_name is LW
+Rs1 = 50000000
+Rs2 = 140729730538064
+rs1 = 8
+rs2 = 0
+PC = 0x405b
+real PC = 0x1016c
+ID done!
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xffffffffffffffec
+EX input2 = -20
+ALUout = 2faf06c
+ALUout = 49999980
+PC=0x405b
+real PC=0x1016c
+EX done!
+read 12 from memory
+read 18 from memory
+PC=405b
+real PC=1016c
+MEM done!
+write 12 to Reg[14]
+write 18 to Reg[14]
+PC=0x405b
+real_PC=0x1016c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 18
+reg[15] is 18
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405b
+real PC=1016c
+instruction is f00793
+IF done!
+opcode is:13
+imm is 0xf
+imm is 15
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 0
+rs2 = 0
+PC = 0x405c
+real PC = 0x10170
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0xf
+EX input2 = 15
+ALUout = f
+ALUout = 15
+PC=0x405c
+real PC=0x10170
+EX done!
+PC=405c
+real PC=10170
+MEM done!
+write f to Reg[15]
+write 15 to Reg[15]
+PC=0x405c
+real_PC=0x10170
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 18
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=405c
+real PC=10170
+instruction is 2e7c263
+IF done!
+opcode is:63
+imm is 0x9
+imm is 9
+inst_name is BLT
+Rs1 = 15
+Rs2 = 18
+rs1 = 15
+rs2 = 14
+PC = 0x405d
+real PC = 0x10174
+ID done!
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x12
+EX input2 = 18
+ALUout = fffffffffffffffd
+ALUout = -3
+PC=0x4065
+real PC=0x10194
+EX done!
+PC=4065
+real PC=10194
+MEM done!
+PC=0x4065
+real_PC=0x10194
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 18
+reg[15] is 15
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4065
+real PC=10194
+instruction is 793
+IF done!
+opcode is:13
+imm is 0x0
+imm is 0
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 0
+rs2 = 0
+PC = 0x4066
+real PC = 0x10198
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0
+ALUout = 0
+PC=0x4066
+real PC=0x10198
+EX done!
+PC=4066
+real PC=10198
+MEM done!
+write 0 to Reg[15]
+write 0 to Reg[15]
+PC=0x4066
+real_PC=0x10198
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 18
+reg[15] is 0
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4066
+real PC=10198
+instruction is 78513
+IF done!
+opcode is:13
+imm is 0x0
+imm is 0
+inst_name is ADDI
+Rs1 = 0
+Rs2 = 140729730538064
+rs1 = 15
+rs2 = 0
+PC = 0x4067
+real PC = 0x1019c
+ID done!
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0
+ALUout = 0
+PC=0x4067
+real PC=0x1019c
+EX done!
+PC=4067
+real PC=1019c
+MEM done!
+write 0 to Reg[10]
+write 0 to Reg[10]
+PC=0x4067
+real_PC=0x1019c
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 50000000
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 18
+reg[15] is 0
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4067
+real PC=1019c
+instruction is 1813403
+IF done!
+opcode is:3
+imm is 0x18
+imm is 24
+inst_name is LD
+Rs1 = 49999968
+Rs2 = 140729730538064
+rs1 = 2
+rs2 = 0
+PC = 0x4068
+real PC = 0x101a0
+ID done!
+EX input1 = 0x2faf060
+EX input1 = 49999968
+EX input2 = 0x18
+EX input2 = 24
+ALUout = 2faf078
+ALUout = 49999992
+PC=0x4068
+real PC=0x101a0
+EX done!
+read 0 from memory
+read 0 from memory
+PC=4068
+real PC=101a0
+MEM done!
+write 0 to Reg[8]
+write 0 to Reg[8]
+PC=0x4068
+real_PC=0x101a0
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 49999968
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 0
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 18
+reg[15] is 0
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+PC=4068
+real PC=101a0
+instruction is 2010113
+IF done!
+opcode is:13
+imm is 0x20
+imm is 32
+inst_name is ADDI
+Rs1 = 49999968
+Rs2 = 140729730538064
+rs1 = 2
+rs2 = 0
+PC = 0x4069
+real PC = 0x101a4
+ID done!
+EX input1 = 0x2faf060
+EX input1 = 49999968
+EX input2 = 0x20
+EX input2 = 32
+ALUout = 2faf080
+ALUout = 50000000
+PC=0x4069
+real PC=0x101a4
+EX done!
+PC=4069
+real PC=101a4
+MEM done!
+write 2faf080 to Reg[2]
+write 50000000 to Reg[2]
+PC=0x4069
+real_PC=0x101a4
+WB done!
+*******************************
+===============================
+result[0] is 15
+result[1] is 0
+result[2] is 69040
+result[3] is 0
+result[4] is 69040
+result[5] is 0
+result[6] is 1
+result[7] is 0
+result[8] is 0
+result[9] is 0
+result[10] is 0
+result[11] is 0
+result[12] is 0
+result[13] is 0
+result[14] is 0
+result[15] is 0
+result[16] is 0
+result[17] is 0
+result[18] is 0
+result[19] is 0
+result[20] is 0
+result[21] is 0
+result[22] is 0
+result[23] is 0
+result[24] is 0
+result[25] is 0
+result[26] is 0
+result[27] is 0
+result[28] is 0
+result[29] is 0
+result[30] is 0
+result[31] is 0
+result[32] is 0
+result[33] is 0
+result[34] is 0
+result[35] is 0
+result[36] is 0
+result[37] is 0
+result[38] is 0
+result[39] is 0
+result[40] is 0
+result[41] is 0
+===============================
+reg[0] is 0
+reg[1] is 0
+reg[2] is 50000000
+reg[3] is 72960
+reg[4] is 0
+reg[5] is 0
+reg[6] is 0
+reg[7] is 0
+reg[8] is 0
+reg[9] is 0
+reg[10] is 0
+reg[11] is 0
+reg[12] is 0
+reg[13] is 0
+reg[14] is 18
+reg[15] is 0
+reg[16] is 0
+reg[17] is 0
+reg[18] is 0
+reg[19] is 0
+reg[20] is 0
+reg[21] is 0
+reg[22] is 0
+reg[23] is 0
+reg[24] is 0
+reg[25] is 0
+reg[26] is 0
+reg[27] is 0
+reg[28] is 0
+reg[29] is 0
+reg[30] is 0
+reg[31] is 0
+===============================
+cycle num is:483
+inst num is:68
+CPI is:7.10294
+simulate over!

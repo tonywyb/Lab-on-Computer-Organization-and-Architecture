@@ -1,0 +1,2047 @@
+read elf header done!
+read sections done!
+read program done!
+read symtable done!
+start running!
+read_elf complete!
+gp is: 11d50
+endPC is: 101d8
+entry is: 10000
+madr is: 101ac
+vadr is: 10000
+cadr is: 1000
+csize is: 5496
+====================================
+load memory complete!
+====================================
+the first inst is:ff010113
+cycle 0 fetch, PC:0x101ac
+instruction is ff010113
+IF done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 1 fetch, PC:0x101b0
+instruction is 113423
+IF done!
+cycle 1 decode, PC:0x101ac
+opcode is:13
+inst_name is ADDI
+rs1 = sp
+Rs1 = 50000000
+rd = sp
+imm is 0xfffffff0
+imm is -16
+ID done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 2 fetch, PC:0x101b4
+instruction is 813023
+IF done!
+cycle 2 decode, PC:0x101b0
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 50000000
+rs2 = ra
+Rs2 = 0
+rd = sp
+imm is 0x8
+imm is 8
+stall and bubble due to rs1/rs2
+rs1 = sp
+rs2 = ra
+ID_EX.Rd:sp
+EX_MEM.Reg_dst:zero
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 2 execute, PC:0x101ac
+EX input1 = 0x2faf080
+EX input1 = 50000000
+EX input2 = 0xfffffffffffffff0
+EX input2 = -16
+ALUout = 0x2faf070
+ALUout = 49999984
+EX done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 3 fetch, PC:0x101b4
+instruction is 813023
+IF done!
+cycle 3 decode, PC:0x101b0
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 50000000
+rs2 = ra
+Rs2 = 0
+rd = sp
+imm is 0x8
+imm is 8
+stall and bubble due to rs1/rs2
+rs1 = sp
+rs2 = ra
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:sp
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+cycle 3 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 3 MEM, PC:0x101ac
+MEM done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 4 fetch, PC:0x101b4
+instruction is 813023
+IF done!
+cycle 4 decode, PC:0x101b0
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 50000000
+rs2 = ra
+Rs2 = 0
+rd = sp
+imm is 0x8
+imm is 8
+stall and bubble due to rs1/rs2
+rs1 = sp
+rs2 = ra
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:zero
+MEM_WB.Reg_dst:sp
+execute bubble!
+ID done!
+cycle 4 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 4 MEM, PC:0xfffffffc
+MEM done!
+cycle 4 WriteBack, PC:0x101ac
+write 2faf070 to Reg[2]
+write 49999984 to Reg[2]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 5 fetch, PC:0x101b4
+instruction is 813023
+IF done!
+cycle 5 decode, PC:0x101b0
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 49999984
+rs2 = ra
+Rs2 = 0
+rd = sp
+imm is 0x8
+imm is 8
+ID done!
+cycle 5 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 5 MEM, PC:0xfffffffc
+MEM done!
+cycle 5 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 6 fetch, PC:0x101b8
+instruction is 1010413
+IF done!
+cycle 6 decode, PC:0x101b4
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 49999984
+rs2 = s0
+Rs2 = 0
+rd = sp
+imm is 0x0
+imm is 0
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 6 execute, PC:0x101b0
+EX input1 = 0x2faf070
+EX input1 = 49999984
+EX input2 = 0x8
+EX input2 = 8
+ALUout = 0x2faf078
+ALUout = 49999992
+EX done!
+cycle 6 MEM, PC:0xfffffffc
+MEM done!
+cycle 6 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 7 fetch, PC:0x101bc
+instruction is f95ff0ef
+IF done!
+cycle 7 decode, PC:0x101b8
+opcode is:13
+inst_name is ADDI
+rs1 = sp
+Rs1 = 49999984
+rd = s0
+imm is 0x10
+imm is 16
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 7 execute, PC:0x101b4
+EX input1 = 0x2faf070
+EX input1 = 49999984
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x2faf070
+ALUout = 49999984
+EX done!
+cycle 7 MEM, PC:0x101b0
+write 0 to memory
+write 0 to memory
+MEM done!
+cycle 7 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 8 fetch, PC:0x101c0
+instruction is 793
+IF done!
+cycle 8 decode, PC:0x101bc
+opcode is:6f
+inst_name is JAL
+rd = ra
+imm is 0xffffffe5
+imm is -27
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 8 execute, PC:0x101b8
+EX input1 = 0x2faf070
+EX input1 = 49999984
+EX input2 = 0x10
+EX input2 = 16
+ALUout = 0x2faf080
+ALUout = 50000000
+EX done!
+cycle 8 MEM, PC:0x101b4
+write 0 to memory
+write 0 to memory
+MEM done!
+cycle 8 WriteBack, PC:0x101b0
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 9 fetch, PC:0x101c4
+instruction is 78513
+IF done!
+cycle 9 decode, PC:0x101c0
+opcode is:13
+inst_name is ADDI
+rs1 = zero
+Rs1 = 0
+rd = a5
+imm is 0x0
+imm is 0
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 9 execute, PC:0x101bc
+EX input1 = 0x406f
+EX input1 = 16495
+EX input2 = 0x4
+EX input2 = 4
+Branch = B_JAL
+temp_PC = 0x10150
+ALUout = 0x4073
+ALUout = 16499
+bubble because of branch predict!
+decode bubble!
+execute bubble!
+EX done!
+cycle 9 MEM, PC:0x101b8
+MEM done!
+cycle 9 WriteBack, PC:0x101b4
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 10 fetch, PC:0x10150
+instruction is ff010113
+IF done!
+cycle 10 decode, PC:0xfffffffc
+opcode is:13
+inst_name is ADDI
+rs1 = zero
+Rs1 = 0
+rd = zero
+imm is 0x0
+imm is 0
+ID done!
+cycle 10 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 10 MEM, PC:0x10150
+MEM done!
+cycle 10 WriteBack, PC:0x101b8
+write 2faf080 to Reg[8]
+write 50000000 to Reg[8]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 11 fetch, PC:0x10154
+instruction is 813423
+IF done!
+cycle 11 decode, PC:0x10150
+opcode is:13
+inst_name is ADDI
+rs1 = sp
+Rs1 = 49999984
+rd = sp
+imm is 0xfffffff0
+imm is -16
+ID done!
+cycle 11 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 11 MEM, PC:0xfffffffc
+MEM done!
+cycle 11 WriteBack, PC:0x10150
+write 4073 to Reg[1]
+write 16499 to Reg[1]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 12 fetch, PC:0x10158
+instruction is 1010413
+IF done!
+cycle 12 decode, PC:0x10154
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 49999984
+rs2 = s0
+Rs2 = 50000000
+rd = sp
+imm is 0x8
+imm is 8
+stall and bubble due to rs1/rs2
+rs1 = sp
+rs2 = s0
+ID_EX.Rd:sp
+EX_MEM.Reg_dst:zero
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 12 execute, PC:0x10150
+EX input1 = 0x2faf070
+EX input1 = 49999984
+EX input2 = 0xfffffffffffffff0
+EX input2 = -16
+ALUout = 0x2faf060
+ALUout = 49999968
+EX done!
+cycle 12 MEM, PC:0xfffffffc
+MEM done!
+cycle 12 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 13 fetch, PC:0x10158
+instruction is 1010413
+IF done!
+cycle 13 decode, PC:0x10154
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 49999984
+rs2 = s0
+Rs2 = 50000000
+rd = sp
+imm is 0x8
+imm is 8
+stall and bubble due to rs1/rs2
+rs1 = sp
+rs2 = s0
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:sp
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+cycle 13 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 13 MEM, PC:0x10150
+MEM done!
+cycle 13 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 14 fetch, PC:0x10158
+instruction is 1010413
+IF done!
+cycle 14 decode, PC:0x10154
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 49999984
+rs2 = s0
+Rs2 = 50000000
+rd = sp
+imm is 0x8
+imm is 8
+stall and bubble due to rs1/rs2
+rs1 = sp
+rs2 = s0
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:zero
+MEM_WB.Reg_dst:sp
+execute bubble!
+ID done!
+cycle 14 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 14 MEM, PC:0xfffffffc
+MEM done!
+cycle 14 WriteBack, PC:0x10150
+write 2faf060 to Reg[2]
+write 49999968 to Reg[2]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 15 fetch, PC:0x10158
+instruction is 1010413
+IF done!
+cycle 15 decode, PC:0x10154
+opcode is:23
+inst_name is SD
+rs1 = sp
+Rs1 = 49999968
+rs2 = s0
+Rs2 = 50000000
+rd = sp
+imm is 0x8
+imm is 8
+ID done!
+cycle 15 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 15 MEM, PC:0xfffffffc
+MEM done!
+cycle 15 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 16 fetch, PC:0x1015c
+instruction is 80c1a703
+IF done!
+cycle 16 decode, PC:0x10158
+opcode is:13
+inst_name is ADDI
+rs1 = sp
+Rs1 = 49999968
+rd = s0
+imm is 0x10
+imm is 16
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 16 execute, PC:0x10154
+EX input1 = 0x2faf060
+EX input1 = 49999968
+EX input2 = 0x8
+EX input2 = 8
+ALUout = 0x2faf068
+ALUout = 49999976
+EX done!
+cycle 16 MEM, PC:0xfffffffc
+MEM done!
+cycle 16 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 17 fetch, PC:0x10160
+instruction is 8101a783
+IF done!
+cycle 17 decode, PC:0x1015c
+opcode is:3
+inst_name is LW
+rs1 = gp
+Rs1 = 73040
+rd = a4
+imm is 0xfffff80c
+imm is -2036
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 17 execute, PC:0x10158
+EX input1 = 0x2faf060
+EX input1 = 49999968
+EX input2 = 0x10
+EX input2 = 16
+ALUout = 0x2faf070
+ALUout = 49999984
+EX done!
+cycle 17 MEM, PC:0x10154
+write 2faf080 to memory
+write 50000000 to memory
+MEM done!
+cycle 17 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 18 fetch, PC:0x10164
+instruction is f7073b
+IF done!
+cycle 18 decode, PC:0x10160
+opcode is:3
+inst_name is LW
+rs1 = gp
+Rs1 = 73040
+rd = a5
+imm is 0xfffff810
+imm is -2032
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 18 execute, PC:0x1015c
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff80c
+EX input2 = -2036
+ALUout = 0x1155c
+ALUout = 71004
+EX done!
+cycle 18 MEM, PC:0x10158
+MEM done!
+cycle 18 WriteBack, PC:0x10154
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 19 fetch, PC:0x10168
+instruction is 80e1a423
+IF done!
+cycle 19 decode, PC:0x10164
+opcode is:3b
+inst_name is ADDW
+rs1 = a4
+Rs1 = 0
+rs2 = a5
+Rs2 = 0
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = a4
+rs2 = a5
+ID_EX.Rd:a5
+EX_MEM.Reg_dst:a4
+MEM_WB.Reg_dst:s0
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 19 execute, PC:0x10160
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff810
+EX input2 = -2032
+ALUout = 0x11560
+ALUout = 71008
+EX done!
+cycle 19 MEM, PC:0x1015c
+read 2 from memory
+read 2 from memory
+MEM done!
+cycle 19 WriteBack, PC:0x10158
+write 2faf070 to Reg[8]
+write 49999984 to Reg[8]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 20 fetch, PC:0x10168
+instruction is 80e1a423
+IF done!
+cycle 20 decode, PC:0x10164
+opcode is:3b
+inst_name is ADDW
+rs1 = a4
+Rs1 = 0
+rs2 = a5
+Rs2 = 0
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = a4
+rs2 = a5
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:a5
+MEM_WB.Reg_dst:a4
+execute bubble!
+ID done!
+cycle 20 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 20 MEM, PC:0x10160
+read 3 from memory
+read 3 from memory
+MEM done!
+cycle 20 WriteBack, PC:0x1015c
+write 2 to Reg[14]
+write 2 to Reg[14]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 21 fetch, PC:0x10168
+instruction is 80e1a423
+IF done!
+cycle 21 decode, PC:0x10164
+opcode is:3b
+inst_name is ADDW
+rs1 = a4
+Rs1 = 2
+rs2 = a5
+Rs2 = 0
+rd = a4
+imm is 0xfffff810
+imm is -2032
+ID done!
+cycle 21 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 21 MEM, PC:0xfffffffc
+MEM done!
+cycle 21 WriteBack, PC:0x10160
+write 3 to Reg[15]
+write 3 to Reg[15]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 22 fetch, PC:0x1016c
+instruction is 8081a703
+IF done!
+cycle 22 decode, PC:0x10168
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 2
+rd = a4
+imm is 0xfffff808
+imm is -2040
+stall and bubble due to rs1/rs2
+rs1 = gp
+rs2 = a4
+ID_EX.Rd:a4
+EX_MEM.Reg_dst:zero
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 22 execute, PC:0x10164
+EX input1 = 0x2
+EX input1 = 2
+EX input2 = 0x3
+EX input2 = 3
+ALUout = 0x5
+ALUout = 5
+EX done!
+cycle 22 MEM, PC:0xfffffffc
+MEM done!
+cycle 22 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 23 fetch, PC:0x1016c
+instruction is 8081a703
+IF done!
+cycle 23 decode, PC:0x10168
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 2
+rd = a4
+imm is 0xfffff808
+imm is -2040
+stall and bubble due to rs1/rs2
+rs1 = gp
+rs2 = a4
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:a4
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+cycle 23 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 23 MEM, PC:0x10164
+MEM done!
+cycle 23 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 24 fetch, PC:0x1016c
+instruction is 8081a703
+IF done!
+cycle 24 decode, PC:0x10168
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 2
+rd = a4
+imm is 0xfffff808
+imm is -2040
+ID done!
+cycle 24 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 24 MEM, PC:0xfffffffc
+MEM done!
+cycle 24 WriteBack, PC:0x10164
+write 5 to Reg[14]
+write 5 to Reg[14]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 25 fetch, PC:0x10170
+instruction is 8101a783
+IF done!
+cycle 25 decode, PC:0x1016c
+opcode is:3
+inst_name is LW
+rs1 = gp
+Rs1 = 73040
+rd = a4
+imm is 0xfffff808
+imm is -2040
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 25 execute, PC:0x10168
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff808
+EX input2 = -2040
+ALUout = 0x11558
+ALUout = 71000
+EX done!
+cycle 25 MEM, PC:0xfffffffc
+MEM done!
+cycle 25 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 26 fetch, PC:0x10174
+instruction is 2f7073b
+IF done!
+cycle 26 decode, PC:0x10170
+opcode is:3
+inst_name is LW
+rs1 = gp
+Rs1 = 73040
+rd = a5
+imm is 0xfffff810
+imm is -2032
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 26 execute, PC:0x1016c
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff808
+EX input2 = -2040
+ALUout = 0x11558
+ALUout = 71000
+EX done!
+cycle 26 MEM, PC:0x10168
+write 5 to memory
+write 5 to memory
+MEM done!
+cycle 26 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 27 fetch, PC:0x10178
+instruction is 80e1a623
+IF done!
+cycle 27 decode, PC:0x10174
+opcode is:3b
+inst_name is MULW
+rs1 = a4
+Rs1 = 5
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = a4
+rs2 = a5
+ID_EX.Rd:a5
+EX_MEM.Reg_dst:a4
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 27 execute, PC:0x10170
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff810
+EX input2 = -2032
+ALUout = 0x11560
+ALUout = 71008
+EX done!
+cycle 27 MEM, PC:0x1016c
+read 5 from memory
+read 5 from memory
+MEM done!
+cycle 27 WriteBack, PC:0x10168
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 28 fetch, PC:0x10178
+instruction is 80e1a623
+IF done!
+cycle 28 decode, PC:0x10174
+opcode is:3b
+inst_name is MULW
+rs1 = a4
+Rs1 = 5
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = a4
+rs2 = a5
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:a5
+MEM_WB.Reg_dst:a4
+execute bubble!
+ID done!
+cycle 28 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 28 MEM, PC:0x10170
+read 3 from memory
+read 3 from memory
+MEM done!
+cycle 28 WriteBack, PC:0x1016c
+write 5 to Reg[14]
+write 5 to Reg[14]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 29 fetch, PC:0x10178
+instruction is 80e1a623
+IF done!
+cycle 29 decode, PC:0x10174
+opcode is:3b
+inst_name is MULW
+rs1 = a4
+Rs1 = 5
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+ID done!
+cycle 29 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 29 MEM, PC:0xfffffffc
+MEM done!
+cycle 29 WriteBack, PC:0x10170
+write 3 to Reg[15]
+write 3 to Reg[15]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 30 fetch, PC:0x1017c
+instruction is 80c1a703
+IF done!
+cycle 30 decode, PC:0x10178
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 5
+rd = a4
+imm is 0xfffff80c
+imm is -2036
+stall and bubble due to rs1/rs2
+rs1 = gp
+rs2 = a4
+ID_EX.Rd:a4
+EX_MEM.Reg_dst:zero
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 30 execute, PC:0x10174
+EX input1 = 0x5
+EX input1 = 5
+EX input2 = 0x3
+EX input2 = 3
+ALUout = 0xf
+ALUout = 15
+EX done!
+cycle 30 MEM, PC:0xfffffffc
+MEM done!
+cycle 30 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 31 fetch, PC:0x1017c
+instruction is 80c1a703
+IF done!
+cycle 31 decode, PC:0x10178
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 5
+rd = a4
+imm is 0xfffff80c
+imm is -2036
+stall and bubble due to rs1/rs2
+rs1 = gp
+rs2 = a4
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:a4
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+cycle 31 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 31 MEM, PC:0x10174
+MEM done!
+cycle 31 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 32 fetch, PC:0x1017c
+instruction is 80c1a703
+IF done!
+cycle 32 decode, PC:0x10178
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 5
+rd = a4
+imm is 0xfffff80c
+imm is -2036
+ID done!
+cycle 32 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 32 MEM, PC:0xfffffffc
+MEM done!
+cycle 32 WriteBack, PC:0x10174
+write f to Reg[14]
+write 15 to Reg[14]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 33 fetch, PC:0x10180
+instruction is 8101a783
+IF done!
+cycle 33 decode, PC:0x1017c
+opcode is:3
+inst_name is LW
+rs1 = gp
+Rs1 = 73040
+rd = a4
+imm is 0xfffff80c
+imm is -2036
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 33 execute, PC:0x10178
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff80c
+EX input2 = -2036
+ALUout = 0x1155c
+ALUout = 71004
+EX done!
+cycle 33 MEM, PC:0xfffffffc
+MEM done!
+cycle 33 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 2;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 34 fetch, PC:0x10184
+instruction is 40f7073b
+IF done!
+cycle 34 decode, PC:0x10180
+opcode is:3
+inst_name is LW
+rs1 = gp
+Rs1 = 73040
+rd = a5
+imm is 0xfffff810
+imm is -2032
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 34 execute, PC:0x1017c
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff80c
+EX input2 = -2036
+ALUout = 0x1155c
+ALUout = 71004
+EX done!
+cycle 34 MEM, PC:0x10178
+write f to memory
+write 15 to memory
+MEM done!
+cycle 34 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 35 fetch, PC:0x10188
+instruction is 80e1a823
+IF done!
+cycle 35 decode, PC:0x10184
+opcode is:3b
+inst_name is SUBW
+rs1 = a4
+Rs1 = 15
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = a4
+rs2 = a5
+ID_EX.Rd:a5
+EX_MEM.Reg_dst:a4
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 35 execute, PC:0x10180
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff810
+EX input2 = -2032
+ALUout = 0x11560
+ALUout = 71008
+EX done!
+cycle 35 MEM, PC:0x1017c
+read f from memory
+read 15 from memory
+MEM done!
+cycle 35 WriteBack, PC:0x10178
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 36 fetch, PC:0x10188
+instruction is 80e1a823
+IF done!
+cycle 36 decode, PC:0x10184
+opcode is:3b
+inst_name is SUBW
+rs1 = a4
+Rs1 = 15
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = a4
+rs2 = a5
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:a5
+MEM_WB.Reg_dst:a4
+execute bubble!
+ID done!
+cycle 36 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 36 MEM, PC:0x10180
+read 3 from memory
+read 3 from memory
+MEM done!
+cycle 36 WriteBack, PC:0x1017c
+write f to Reg[14]
+write 15 to Reg[14]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 37 fetch, PC:0x10188
+instruction is 80e1a823
+IF done!
+cycle 37 decode, PC:0x10184
+opcode is:3b
+inst_name is SUBW
+rs1 = a4
+Rs1 = 15
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+ID done!
+cycle 37 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 37 MEM, PC:0xfffffffc
+MEM done!
+cycle 37 WriteBack, PC:0x10180
+write 3 to Reg[15]
+write 3 to Reg[15]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 38 fetch, PC:0x1018c
+instruction is 80c1a703
+IF done!
+cycle 38 decode, PC:0x10188
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 15
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = gp
+rs2 = a4
+ID_EX.Rd:a4
+EX_MEM.Reg_dst:zero
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 38 execute, PC:0x10184
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0x3
+EX input2 = 3
+ALUout = 0xc
+ALUout = 12
+EX done!
+cycle 38 MEM, PC:0xfffffffc
+MEM done!
+cycle 38 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 39 fetch, PC:0x1018c
+instruction is 80c1a703
+IF done!
+cycle 39 decode, PC:0x10188
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 15
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = gp
+rs2 = a4
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:a4
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+cycle 39 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 39 MEM, PC:0x10184
+MEM done!
+cycle 39 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 40 fetch, PC:0x1018c
+instruction is 80c1a703
+IF done!
+cycle 40 decode, PC:0x10188
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 15
+rd = a4
+imm is 0xfffff810
+imm is -2032
+ID done!
+cycle 40 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 40 MEM, PC:0xfffffffc
+MEM done!
+cycle 40 WriteBack, PC:0x10184
+write c to Reg[14]
+write 12 to Reg[14]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 41 fetch, PC:0x10190
+instruction is 8101a783
+IF done!
+cycle 41 decode, PC:0x1018c
+opcode is:3
+inst_name is LW
+rs1 = gp
+Rs1 = 73040
+rd = a4
+imm is 0xfffff80c
+imm is -2036
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 41 execute, PC:0x10188
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff810
+EX input2 = -2032
+ALUout = 0x11560
+ALUout = 71008
+EX done!
+cycle 41 MEM, PC:0xfffffffc
+MEM done!
+cycle 41 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 3;sum is 0;temp is 0
+
+===============================
+cycle 42 fetch, PC:0x10194
+instruction is 2f7473b
+IF done!
+cycle 42 decode, PC:0x10190
+opcode is:3
+inst_name is LW
+rs1 = gp
+Rs1 = 73040
+rd = a5
+imm is 0xfffff810
+imm is -2032
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 42 execute, PC:0x1018c
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff80c
+EX input2 = -2036
+ALUout = 0x1155c
+ALUout = 71004
+EX done!
+cycle 42 MEM, PC:0x10188
+write c to memory
+write 12 to memory
+MEM done!
+cycle 42 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 43 fetch, PC:0x10198
+instruction is 80e1a423
+IF done!
+cycle 43 decode, PC:0x10194
+opcode is:3b
+inst_name is DIVW
+rs1 = a4
+Rs1 = 12
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = a4
+rs2 = a5
+ID_EX.Rd:a5
+EX_MEM.Reg_dst:a4
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 43 execute, PC:0x10190
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff810
+EX input2 = -2032
+ALUout = 0x11560
+ALUout = 71008
+EX done!
+cycle 43 MEM, PC:0x1018c
+read f from memory
+read 15 from memory
+MEM done!
+cycle 43 WriteBack, PC:0x10188
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 44 fetch, PC:0x10198
+instruction is 80e1a423
+IF done!
+cycle 44 decode, PC:0x10194
+opcode is:3b
+inst_name is DIVW
+rs1 = a4
+Rs1 = 12
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+stall and bubble due to rs1/rs2
+rs1 = a4
+rs2 = a5
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:a5
+MEM_WB.Reg_dst:a4
+execute bubble!
+ID done!
+cycle 44 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 44 MEM, PC:0x10190
+read c from memory
+read 12 from memory
+MEM done!
+cycle 44 WriteBack, PC:0x1018c
+write f to Reg[14]
+write 15 to Reg[14]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 45 fetch, PC:0x10198
+instruction is 80e1a423
+IF done!
+cycle 45 decode, PC:0x10194
+opcode is:3b
+inst_name is DIVW
+rs1 = a4
+Rs1 = 15
+rs2 = a5
+Rs2 = 3
+rd = a4
+imm is 0xfffff810
+imm is -2032
+ID done!
+cycle 45 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 45 MEM, PC:0xfffffffc
+MEM done!
+cycle 45 WriteBack, PC:0x10190
+write c to Reg[15]
+write 12 to Reg[15]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 46 fetch, PC:0x1019c
+instruction is 13
+IF done!
+cycle 46 decode, PC:0x10198
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 15
+rd = a4
+imm is 0xfffff808
+imm is -2040
+stall and bubble due to rs1/rs2
+rs1 = gp
+rs2 = a4
+ID_EX.Rd:a4
+EX_MEM.Reg_dst:zero
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 46 execute, PC:0x10194
+EX input1 = 0xf
+EX input1 = 15
+EX input2 = 0xc
+EX input2 = 12
+ALUout = 0x1
+ALUout = 1
+EX done!
+cycle 85 MEM, PC:0xfffffffc
+MEM done!
+cycle 85 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 86 fetch, PC:0x1019c
+instruction is 13
+IF done!
+cycle 86 decode, PC:0x10198
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 15
+rd = a4
+imm is 0xfffff808
+imm is -2040
+stall and bubble due to rs1/rs2
+rs1 = gp
+rs2 = a4
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:a4
+MEM_WB.Reg_dst:zero
+execute bubble!
+ID done!
+cycle 86 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 86 MEM, PC:0x10194
+MEM done!
+cycle 86 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 87 fetch, PC:0x1019c
+instruction is 13
+IF done!
+cycle 87 decode, PC:0x10198
+opcode is:23
+inst_name is SW
+rs1 = gp
+Rs1 = 73040
+rs2 = a4
+Rs2 = 15
+rd = a4
+imm is 0xfffff808
+imm is -2040
+ID done!
+cycle 87 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 87 MEM, PC:0xfffffffc
+MEM done!
+cycle 87 WriteBack, PC:0x10194
+write 1 to Reg[14]
+write 1 to Reg[14]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 88 fetch, PC:0x101a0
+instruction is 813403
+IF done!
+cycle 88 decode, PC:0x1019c
+opcode is:13
+inst_name is ADDI
+rs1 = zero
+Rs1 = 0
+rd = zero
+imm is 0x0
+imm is 0
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 88 execute, PC:0x10198
+EX input1 = 0x11d50
+EX input1 = 73040
+EX input2 = 0xfffffffffffff808
+EX input2 = -2040
+ALUout = 0x11558
+ALUout = 71000
+EX done!
+cycle 88 MEM, PC:0xfffffffc
+MEM done!
+cycle 88 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 5;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 89 fetch, PC:0x101a4
+instruction is 1010113
+IF done!
+cycle 89 decode, PC:0x101a0
+opcode is:3
+inst_name is LD
+rs1 = sp
+Rs1 = 49999968
+rd = s0
+imm is 0x8
+imm is 8
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 89 execute, PC:0x1019c
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 89 MEM, PC:0x10198
+write 1 to memory
+write 1 to memory
+MEM done!
+cycle 89 WriteBack, PC:0xfffffffc
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 90 fetch, PC:0x101a8
+instruction is 8067
+IF done!
+cycle 90 decode, PC:0x101a4
+opcode is:13
+inst_name is ADDI
+rs1 = sp
+Rs1 = 49999968
+rd = sp
+imm is 0x10
+imm is 16
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 90 execute, PC:0x101a0
+EX input1 = 0x2faf060
+EX input1 = 49999968
+EX input2 = 0x8
+EX input2 = 8
+ALUout = 0x2faf068
+ALUout = 49999976
+EX done!
+cycle 90 MEM, PC:0x1019c
+MEM done!
+cycle 90 WriteBack, PC:0x10198
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 91 fetch, PC:0x101ac
+instruction is ff010113
+IF done!
+cycle 91 decode, PC:0x101a8
+opcode is:67
+inst_name is JALR
+rs1 = ra
+Rs1 = 16499
+rd = zero
+imm is 0x0
+imm is 0
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 91 execute, PC:0x101a4
+EX input1 = 0x2faf060
+EX input1 = 49999968
+EX input2 = 0x10
+EX input2 = 16
+ALUout = 0x2faf070
+ALUout = 49999984
+EX done!
+cycle 91 MEM, PC:0x101a0
+read 2faf080 from memory
+read 50000000 from memory
+MEM done!
+cycle 91 WriteBack, PC:0x1019c
+write 0 to Reg[0]
+write 0 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 92 fetch, PC:0x101b0
+instruction is 113423
+IF done!
+cycle 92 decode, PC:0x101ac
+opcode is:13
+inst_name is ADDI
+rs1 = sp
+Rs1 = 49999968
+rd = sp
+imm is 0xfffffff0
+imm is -16
+stall and bubble due to rs1 = sp
+ID_EX.Rd:zero
+EX_MEM.Reg_dst:sp
+MEM_WB.Reg_dst:s0
+execute bubble!
+ID done!
+another instruction number!!!!!!!!
+its PC is:cycle 92 execute, PC:0x101a8
+EX input1 = 0x406a
+EX input1 = 16490
+EX input2 = 0x4
+EX input2 = 4
+Branch = B_JALR
+reg[rs1]16499
+temp_PC = 0x101cc
+ALUout = 0x406e
+ALUout = 16494
+bubble because of branch predict!
+decode bubble!
+execute bubble!
+EX done!
+cycle 92 MEM, PC:0x101a4
+MEM done!
+cycle 92 WriteBack, PC:0x101a0
+write 2faf080 to Reg[8]
+write 50000000 to Reg[8]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 93 fetch, PC:0x101cc
+instruction is 13403
+IF done!
+cycle 93 decode, PC:0xfffffffc
+opcode is:13
+inst_name is ADDI
+rs1 = zero
+Rs1 = 0
+rd = zero
+imm is 0x0
+imm is 0
+ID done!
+cycle 93 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 93 MEM, PC:0x101cc
+MEM done!
+cycle 93 WriteBack, PC:0x101a4
+write 2faf070 to Reg[2]
+write 49999984 to Reg[2]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+cycle 94 fetch, PC:0x101d0
+instruction is 1010113
+IF done!
+cycle 94 decode, PC:0x101cc
+opcode is:3
+inst_name is LD
+rs1 = sp
+Rs1 = 49999984
+rd = s0
+imm is 0x0
+imm is 0
+ID done!
+cycle 94 execute, PC:0xfffffffc
+EX input1 = 0x0
+EX input1 = 0
+EX input2 = 0x0
+EX input2 = 0
+ALUout = 0x0
+ALUout = 0
+EX done!
+cycle 94 MEM, PC:0xfffffffc
+MEM done!
+cycle 94 WriteBack, PC:0x101cc
+write 406e to Reg[0]
+write 16494 to Reg[0]
+WB done!
+*******************************
+===============================
+res[0] is 0;res[1] is 0;res[2] is 0;res[3] is 0;res[4] is 0;res[5] is 0;
+a is 1;b is 15;c is 12;sum is 0;temp is 0
+
+===============================
+final cycle is 95
+simulate over!
+cycle number is:95
+data hazard num is:23
+control hazard num is:2

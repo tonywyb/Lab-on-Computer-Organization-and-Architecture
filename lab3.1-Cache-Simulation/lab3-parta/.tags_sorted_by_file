@@ -1,0 +1,81 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+CC	Makefile	/^CC=g++$/;"	m
+BypassDecision	cache.cc	/^int Cache::BypassDecision() {$/;"	f	class:Cache
+GetConfig	cache.cc	/^void Cache::GetConfig(CacheConfig &cc) {$/;"	f	class:Cache
+HandleRequest	cache.cc	/^void Cache::HandleRequest(uint64_t addr, int bytes, int read,$/;"	f	class:Cache
+LRU_line	cache.cc	/^int Cache::LRU_line(int set_index)$/;"	f	class:Cache
+PartitionAlgorithm	cache.cc	/^void Cache::PartitionAlgorithm() {$/;"	f	class:Cache
+PrefetchAlgorithm	cache.cc	/^void Cache::PrefetchAlgorithm() {$/;"	f	class:Cache
+PrefetchDecision	cache.cc	/^int Cache::PrefetchDecision() {$/;"	f	class:Cache
+ReplaceAlgorithm	cache.cc	/^void Cache::ReplaceAlgorithm(uint64_t addr, int bytes, int read,$/;"	f	class:Cache
+ReplaceDecision	cache.cc	/^int Cache::ReplaceDecision(uint64_t addr, uint64_t &line_index) {$/;"	f	class:Cache
+SetConfig	cache.cc	/^void Cache::SetConfig(CacheConfig cc) {$/;"	f	class:Cache
+log2	cache.cc	/^int log2(uint64_t x) {$/;"	f
+BLOCK_INDEX	cache.h	9;"	d
+CACHE_CACHE_H_	cache.h	2;"	d
+Cache	cache.h	/^  Cache() {}$/;"	f	class:Cache
+Cache	cache.h	/^class Cache: public Storage {$/;"	c
+CacheConfig	cache.h	/^} CacheConfig;$/;"	t	typeref:struct:CacheConfig_
+CacheConfig_	cache.h	/^  CacheConfig_(int a,int b,int c,int d,int e)$/;"	f	struct:CacheConfig_
+CacheConfig_	cache.h	/^typedef struct CacheConfig_ {$/;"	s
+Line	cache.h	/^} Line;$/;"	t	typeref:struct:Line_
+Line_	cache.h	/^typedef struct Line_ {$/;"	s
+SET_INDEX	cache.h	8;"	d
+Set	cache.h	/^} Set;$/;"	t	typeref:struct:Set_
+SetLower	cache.h	/^  void SetLower(Storage *ll) { lower_ = ll; }$/;"	f	class:Cache
+Set_	cache.h	/^typedef struct Set_ {$/;"	s
+TAG	cache.h	7;"	d
+access_count	cache.h	/^  uint64_t access_count;$/;"	m	class:Cache
+associativity	cache.h	/^  int associativity; \/\/ Number of lines in a set$/;"	m	struct:CacheConfig_
+block	cache.h	/^	unsigned char* block;$/;"	m	struct:Line_
+block_num	cache.h	/^  int block_num; \/\/ Number of blocks in a line$/;"	m	struct:CacheConfig_
+config_	cache.h	/^  CacheConfig config_;$/;"	m	class:Cache
+dirty	cache.h	/^	unsigned dirty;$/;"	m	struct:Line_
+last_access	cache.h	/^	unsigned last_access;$/;"	m	struct:Line_
+line	cache.h	/^	Line *line;$/;"	m	struct:Set_
+lower_	cache.h	/^  Storage *lower_; \/\/ lower storage$/;"	m	class:Cache
+set	cache.h	/^  Set *set;$/;"	m	class:Cache
+set_num	cache.h	/^  int set_num; \/\/ Number sets in a cache$/;"	m	struct:CacheConfig_
+size	cache.h	/^  int size;$/;"	m	struct:CacheConfig_
+tag	cache.h	/^	unsigned tag;$/;"	m	struct:Line_
+valid	cache.h	/^	unsigned valid;$/;"	m	struct:Line_
+write_allocate	cache.h	/^  int write_allocate; \/\/ 0|1 for no-alc|alc$/;"	m	struct:CacheConfig_
+write_through	cache.h	/^  int write_through; \/\/ 0|1 for back|through$/;"	m	struct:CacheConfig_
+~Cache	cache.h	/^  ~Cache() {}$/;"	f	class:Cache
+CACHE_DEF_H_	def.h	2;"	d
+FALSE	def.h	5;"	d
+TRUE	def.h	4;"	d
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+main	main.cc	/^int main(int argc, char *argv[])$/;"	f
+HandleRequest	memory.cc	/^void Memory::HandleRequest(uint64_t addr, int bytes, int read,$/;"	f	class:Memory
+CACHE_MEMORY_H_	memory.h	2;"	d
+Memory	memory.h	/^  Memory() {}$/;"	f	class:Memory
+Memory	memory.h	/^class Memory: public Storage {$/;"	c
+~Memory	memory.h	/^  ~Memory() {}$/;"	f	class:Memory
+CACHE_STORAGE_H_	storage.h	2;"	d
+DISALLOW_COPY_AND_ASSIGN	storage.h	7;"	d
+GetLatency	storage.h	/^  void GetLatency(StorageLatency &sl) { sl = latency_; }$/;"	f	class:Storage
+GetStats	storage.h	/^  void GetStats(StorageStats &ss) { ss = stats_; }$/;"	f	class:Storage
+SetLatency	storage.h	/^  void SetLatency(StorageLatency sl) { latency_ = sl; }$/;"	f	class:Storage
+SetStats	storage.h	/^  void SetStats(StorageStats ss) { stats_ = ss; }$/;"	f	class:Storage
+Storage	storage.h	/^  Storage() {}$/;"	f	class:Storage
+Storage	storage.h	/^class Storage {$/;"	c
+StorageLatency	storage.h	/^} StorageLatency;$/;"	t	typeref:struct:StorageLatency_
+StorageLatency_	storage.h	/^typedef struct StorageLatency_ {$/;"	s
+StorageStats	storage.h	/^} StorageStats;$/;"	t	typeref:struct:StorageStats_
+StorageStats_	storage.h	/^typedef struct StorageStats_ {$/;"	s
+access_counter	storage.h	/^  int access_counter;$/;"	m	struct:StorageStats_
+access_cycle	storage.h	/^  int access_cycle; \/\/ In nanoseconds$/;"	m	struct:StorageStats_
+bus_latency	storage.h	/^  int bus_latency; \/\/ Added to each request$/;"	m	struct:StorageLatency_
+fetch_num	storage.h	/^  int fetch_num; \/\/ Fetch lower layer$/;"	m	struct:StorageStats_
+hit_latency	storage.h	/^  int hit_latency; \/\/ In cycles$/;"	m	struct:StorageLatency_
+latency_	storage.h	/^  StorageLatency latency_;$/;"	m	class:Storage
+miss_num	storage.h	/^  int miss_num;$/;"	m	struct:StorageStats_
+prefetch_num	storage.h	/^  int prefetch_num; \/\/ Prefetch$/;"	m	struct:StorageStats_
+replace_num	storage.h	/^  int replace_num; \/\/ Evict old lines$/;"	m	struct:StorageStats_
+stats_	storage.h	/^  StorageStats stats_;$/;"	m	class:Storage
+~Storage	storage.h	/^  ~Storage() {}$/;"	f	class:Storage

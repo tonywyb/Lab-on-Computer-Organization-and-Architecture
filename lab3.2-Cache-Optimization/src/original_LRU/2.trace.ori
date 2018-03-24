@@ -1,0 +1,30 @@
+Replace policy: LRU
+Prefetch policy: tagged-prefetch
+Prefetch number: 2
+Bypass limit: 3
+Results:
+Trace count: 16289600
+Hit count: 14442300
+Miss rate: 0.113404
+Time: 319676490
+--------------------------------
+The following is the stats of this cache
+access_counter: 16289600
+miss_num: 1847300
+miss_rate: 0.113404
+access_cycle: 48868800
+replace_num: 1846788
+fetch_num: 2463129
+prefetch_num: 0
+--------------------------------
+--------------------------------
+The following is the stats of this cache
+access_counter: 2463129
+miss_num: 1847300
+miss_rate: 0.749981
+access_cycle: 24631290
+replace_num: 1843204
+fetch_num: 2461764
+prefetch_num: 0
+--------------------------------
+AMAT: 12.639095

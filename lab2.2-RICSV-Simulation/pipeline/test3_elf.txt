@@ -1,0 +1,351 @@
+ELF Header:
+ magic number:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+ Class:  ELFCLASS64
+ Data:  little-endian
+ Version:   1
+ OS/ABI:	 System V ABI
+ ABI Version:   0
+ Type:  EXEC
+ Machine:    RISC-V
+ Version:  0x1
+ Entry point address:  0x10000
+ Start of program headers:   64 bytes into  file
+ Start of section headers:   52896 bytes into  file
+ Flags:  0x0
+ Size of this header:  64 Bytes
+ Size of program headers:  56 Bytes
+ Number of program headers:    1
+ Size of section headers:   64 Bytes
+ Number of section headers:   22
+ Section header string table index:   19
+
+
+Section Headers:
+ [  0]
+ Name:  Type: NULL Address:  0000000000000000 Offset:  00000000
+ Size:  0000000000000000 Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  0
+ [  1]
+ Name: .text Type: PROGBITS Address:  0000000000010000 Offset:  00001000
+ Size:  0000000000000960 Entsize:  0000000000000000
+ Flags:  6 Link:  0 Info:  0 Align:  4
+ [  2]
+ Name: .rodata Type: PROGBITS Address:  0000000000010960 Offset:  00001960
+ Size:  0000000000000008 Entsize:  0000000000000001
+ Flags:  32 Link:  0 Info:  0 Align:  8
+ [  3]
+ Name: .init_array Type: INIT_ARRAY Address:  0000000000010968 Offset:  00001968
+ Size:  0000000000000008 Entsize:  0000000000000000
+ Flags:  3 Link:  0 Info:  0 Align:  8
+ [  4]
+ Name: .fini_array Type: FINI_ARRAY Address:  0000000000010970 Offset:  00001970
+ Size:  0000000000000008 Entsize:  0000000000000000
+ Flags:  3 Link:  0 Info:  0 Align:  8
+ [  5]
+ Name: .eh_frame Type: PROGBITS Address:  0000000000010978 Offset:  00001978
+ Size:  0000000000000440 Entsize:  0000000000000000
+ Flags:  2 Link:  0 Info:  0 Align:  8
+ [  6]
+ Name: .jcr Type: PROGBITS Address:  0000000000010db8 Offset:  00001db8
+ Size:  0000000000000008 Entsize:  0000000000000000
+ Flags:  3 Link:  0 Info:  0 Align:  8
+ [  7]
+ Name: .data Type: PROGBITS Address:  0000000000010dc0 Offset:  00001dc0
+ Size:  0000000000000760 Entsize:  0000000000000000
+ Flags:  3 Link:  0 Info:  0 Align:  8
+ [  8]
+ Name: .sdata Type: PROGBITS Address:  0000000000011520 Offset:  00002520
+ Size:  0000000000000018 Entsize:  0000000000000000
+ Flags:  3 Link:  0 Info:  0 Align:  8
+ [  9]
+ Name: .sbss Type: NOBITS Address:  0000000000011538 Offset:  00002538
+ Size:  0000000000000008 Entsize:  0000000000000000
+ Flags:  3 Link:  0 Info:  0 Align:  8
+ [ 10]
+ Name: .bss Type: NOBITS Address:  0000000000011540 Offset:  00002538
+ Size:  0000000000000048 Entsize:  0000000000000000
+ Flags:  3 Link:  0 Info:  0 Align:  8
+ [ 11]
+ Name: .comment Type: PROGBITS Address:  0000000000000000 Offset:  00002538
+ Size:  0000000000000011 Entsize:  0000000000000001
+ Flags:  30 Link:  0 Info:  0 Align:  1
+ [ 12]
+ Name: .debug_info Type: PROGBITS Address:  0000000000000000 Offset:  00002549
+ Size:  0000000000004672 Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  1
+ [ 13]
+ Name: .debug_abbrev Type: PROGBITS Address:  0000000000000000 Offset:  00006bbb
+ Size:  0000000000000e28 Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  1
+ [ 14]
+ Name: .debug_loc Type: PROGBITS Address:  0000000000000000 Offset:  000079e3
+ Size:  000000000000153d Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  1
+ [ 15]
+ Name: .debug_aranges Type: PROGBITS Address:  0000000000000000 Offset:  00008f20
+ Size:  00000000000001a0 Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  1
+ [ 16]
+ Name: .debug_line Type: PROGBITS Address:  0000000000000000 Offset:  000090c0
+ Size:  00000000000021b5 Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  1
+ [ 17]
+ Name: .debug_str Type: PROGBITS Address:  0000000000000000 Offset:  0000b275
+ Size:  0000000000000bd3 Entsize:  0000000000000001
+ Flags:  30 Link:  0 Info:  0 Align:  1
+ [ 18]
+ Name: .debug_ranges Type: PROGBITS Address:  0000000000000000 Offset:  0000be48
+ Size:  0000000000000080 Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  1
+ [ 19]
+ Name: .shstrtab Type: STRTAB Address:  0000000000000000 Offset:  0000bec8
+ Size:  00000000000000ca Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  1
+ [ 20]
+ Name: .symtab Type: SYMTAB Address:  0000000000000000 Offset:  0000bf98
+ Size:  0000000000000ae0 Entsize:  0000000000000018
+ Flags:  0 Link:  21 Info:  53 Align:  8
+ [ 21]
+ Name: .strtab Type: STRTAB Address:  0000000000000000 Offset:  0000ca78
+ Size:  0000000000000426 Entsize:  0000000000000000
+ Flags:  0 Link:  0 Info:  0 Align:  1
+
+
+Program Headers:
+ [  0]
+ Type:   LOAD Flags:   0x7 Offset:   4096 VirtAddr:  65536 PhysAddr:   65536 FileSiz:   5432 MemSiz:   5512 Align:   4096
+
+
+Symbol table:
+ [  0]    Name:                                             
+ Bind:   LOCAL Type:   NOTYPE NDX:   0 Size:   0 Value:   0
+ [  1]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   1 Size:   0 Value:   65536
+ [  2]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   2 Size:   0 Value:   67936
+ [  3]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   3 Size:   0 Value:   67944
+ [  4]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   4 Size:   0 Value:   67952
+ [  5]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   5 Size:   0 Value:   67960
+ [  6]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   6 Size:   0 Value:   69048
+ [  7]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   7 Size:   0 Value:   69056
+ [  8]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   8 Size:   0 Value:   70944
+ [  9]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   9 Size:   0 Value:   70968
+ [ 10]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   10 Size:   0 Value:   70976
+ [ 11]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   11 Size:   0 Value:   0
+ [ 12]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   12 Size:   0 Value:   0
+ [ 13]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   13 Size:   0 Value:   0
+ [ 14]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   14 Size:   0 Value:   0
+ [ 15]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   15 Size:   0 Value:   0
+ [ 16]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   16 Size:   0 Value:   0
+ [ 17]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   17 Size:   0 Value:   0
+ [ 18]    Name:                                             
+ Bind:   LOCAL Type:   SECTION NDX:   18 Size:   0 Value:   0
+ [ 19]    Name:                                crtstuff.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 20]    Name:                        __EH_FRAME_BEGIN__   
+ Bind:   LOCAL Type:   OBJECT NDX:   5 Size:   0 Value:   67960
+ [ 21]    Name:                              __JCR_LIST__   
+ Bind:   LOCAL Type:   OBJECT NDX:   6 Size:   0 Value:   69048
+ [ 22]    Name:                      deregister_tm_clones   
+ Bind:   LOCAL Type:   FUNC NDX:   1 Size:   0 Value:   65612
+ [ 23]    Name:                        register_tm_clones   
+ Bind:   LOCAL Type:   FUNC NDX:   1 Size:   0 Value:   65656
+ [ 24]    Name:                     __do_global_dtors_aux   
+ Bind:   LOCAL Type:   FUNC NDX:   1 Size:   0 Value:   65712
+ [ 25]    Name:                            completed.4929   
+ Bind:   LOCAL Type:   OBJECT NDX:   10 Size:   1 Value:   70976
+ [ 26]    Name:    __do_global_dtors_aux_fini_array_entry   
+ Bind:   LOCAL Type:   OBJECT NDX:   4 Size:   0 Value:   67952
+ [ 27]    Name:                               frame_dummy   
+ Bind:   LOCAL Type:   FUNC NDX:   1 Size:   0 Value:   65780
+ [ 28]    Name:                               object.4934   
+ Bind:   LOCAL Type:   OBJECT NDX:   10 Size:   48 Value:   70984
+ [ 29]    Name:            __frame_dummy_init_array_entry   
+ Bind:   LOCAL Type:   OBJECT NDX:   3 Size:   0 Value:   67944
+ [ 30]    Name:                                     3.cpp   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 31]    Name:                                crtstuff.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 32]    Name:                             __FRAME_END__   
+ Bind:   LOCAL Type:   OBJECT NDX:   5 Size:   0 Value:   68016
+ [ 33]    Name:                               __JCR_END__   
+ Bind:   LOCAL Type:   OBJECT NDX:   6 Size:   0 Value:   69048
+ [ 34]    Name:                                  atexit.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 35]    Name:                                    exit.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 36]    Name:                                    fini.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 37]    Name:                                  impure.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 38]    Name:                               impure_data   
+ Bind:   LOCAL Type:   OBJECT NDX:   7 Size:   1864 Value:   69080
+ [ 39]    Name:                                    init.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 40]    Name:                                __atexit.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 41]    Name:                           __call_atexit.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 42]    Name:                                syscalls.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 43]    Name:                             heap_end.2381   
+ Bind:   LOCAL Type:   OBJECT NDX:   9 Size:   8 Value:   70968
+ [ 44]    Name:                                   t0.2343   
+ Bind:   LOCAL Type:   OBJECT NDX:   10 Size:   16 Value:   71032
+ [ 45]    Name:                                   errno.c   
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 46]    Name:                                             
+ Bind:   LOCAL Type:   FILE NDX:   -15 Size:   0 Value:   0
+ [ 47]    Name:                          __fini_array_end   
+ Bind:   LOCAL Type:   NOTYPE NDX:   4 Size:   0 Value:   67960
+ [ 48]    Name:                        __fini_array_start   
+ Bind:   LOCAL Type:   NOTYPE NDX:   4 Size:   0 Value:   67952
+ [ 49]    Name:                          __init_array_end   
+ Bind:   LOCAL Type:   NOTYPE NDX:   3 Size:   0 Value:   67952
+ [ 50]    Name:                       __preinit_array_end   
+ Bind:   LOCAL Type:   NOTYPE NDX:   3 Size:   0 Value:   67944
+ [ 51]    Name:                        __init_array_start   
+ Bind:   LOCAL Type:   NOTYPE NDX:   3 Size:   0 Value:   67944
+ [ 52]    Name:                     __preinit_array_start   
+ Bind:   LOCAL Type:   NOTYPE NDX:   3 Size:   0 Value:   67944
+ [ 53]    Name:                                   fstatat   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   20 Value:   67188
+ [ 54]    Name:                                   sysconf   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   28 Value:   67792
+ [ 55]    Name:                                    _fdata   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   7 Size:   0 Value:   69056
+ [ 56]    Name:                                     utime   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   8 Value:   67752
+ [ 57]    Name:                                 faccessat   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   20 Value:   67236
+ [ 58]    Name:                                   __errno   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   8 Value:   67928
+ [ 59]    Name:                                     times   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   144 Value:   67560
+ [ 60]    Name:                                    _etext   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   2 Size:   0 Value:   67944
+ [ 61]    Name:                                       _gp   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   -15 Size:   0 Value:   72992
+ [ 62]    Name:                                    execve   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   36 Value:   67348
+ [ 63]    Name:                                    getpid   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   8 Value:   67420
+ [ 64]    Name:                               __TMC_END__   
+ Bind:   GLOBAL Type:   OBJECT NDX:   8 Size:   0 Value:   70944
+ [ 65]    Name:                                    malloc   
+ Bind:   WEAK Type:   NOTYPE NDX:   0 Size:   0 Value:   0
+ [ 66]    Name:                                    isatty   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   60 Value:   67500
+ [ 67]    Name:                                _bss_start   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   10 Size:   0 Value:   70976
+ [ 68]    Name:                              __dso_handle   
+ Bind:   GLOBAL Type:   OBJECT NDX:   8 Size:   0 Value:   70944
+ [ 69]    Name:                                     lseek   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   20 Value:   67044
+ [ 70]    Name:                        _global_impure_ptr   
+ Bind:   GLOBAL Type:   OBJECT NDX:   8 Size:   8 Value:   70952
+ [ 71]    Name:                                     chown   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   8 Value:   67760
+ [ 72]    Name:                         __libc_init_array   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   160 Value:   66140
+ [ 73]    Name:                                     chmod   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   8 Value:   67768
+ [ 74]    Name:                                     _init   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   1 Size:   0 Value:   65608
+ [ 75]    Name:                         __libc_fini_array   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   92 Value:   66048
+ [ 76]    Name:                                     write   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   20 Value:   67084
+ [ 77]    Name:                                     fstat   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   28 Value:   67104
+ [ 78]    Name:                                      kill   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   36 Value:   67428
+ [ 79]    Name:                   __deregister_frame_info   
+ Bind:   WEAK Type:   NOTYPE NDX:   0 Size:   0 Value:   0
+ [ 80]    Name:                                     chdir   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   8 Value:   67776
+ [ 81]    Name:                 _ITM_registerTMCloneTable   
+ Bind:   WEAK Type:   NOTYPE NDX:   0 Size:   0 Value:   0
+ [ 82]    Name:                                      wait   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   36 Value:   67464
+ [ 83]    Name:                          __call_exitprocs   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   396 Value:   66556
+ [ 84]    Name:                                    _ftext   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   1 Size:   0 Value:   65536
+ [ 85]    Name:                                    _start   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   1 Size:   0 Value:   65536
+ [ 86]    Name:                                     lstat   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   28 Value:   67160
+ [ 87]    Name:                                      read   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   20 Value:   67064
+ [ 88]    Name:                       __register_exitproc   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   256 Value:   66300
+ [ 89]    Name:                                    unlink   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   32 Value:   67316
+ [ 90]    Name:                                      fork   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   36 Value:   67384
+ [ 91]    Name:                           __syscall_error   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   48 Value:   66952
+ [ 92]    Name:               _ITM_deregisterTMCloneTable   
+ Bind:   WEAK Type:   NOTYPE NDX:   0 Size:   0 Value:   0
+ [ 93]    Name:                                      sbrk   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   80 Value:   67820
+ [ 94]    Name:                              gettimeofday   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   32 Value:   67704
+ [ 95]    Name:                                      main   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   124 Value:   65856
+ [ 96]    Name:                                    getcwd   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   8 Value:   67784
+ [ 97]    Name:                                     _fini   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   1 Size:   0 Value:   65608
+ [ 98]    Name:                                    atexit   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   20 Value:   65980
+ [ 99]    Name:                                    result   
+ Bind:   GLOBAL Type:   OBJECT NDX:   7 Size:   20 Value:   69056
+ [100]    Name:                               _impure_ptr   
+ Bind:   GLOBAL Type:   OBJECT NDX:   8 Size:   8 Value:   70960
+ [101]    Name:                                     ftime   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   16 Value:   67736
+ [102]    Name:                                      stat   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   28 Value:   67132
+ [103]    Name:                                    access   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   28 Value:   67208
+ [104]    Name:                                    _edata   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   7 Size:   0 Value:   70944
+ [105]    Name:                                      _end   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   10 Size:   0 Value:   71048
+ [106]    Name:                                      link   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   28 Value:   67288
+ [107]    Name:                                      exit   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   48 Value:   66000
+ [108]    Name:                                    openat   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   20 Value:   67024
+ [109]    Name:                                     _exit   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   28 Value:   67900
+ [110]    Name:                                      open   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   24 Value:   67000
+ [111]    Name:                       _Jv_RegisterClasses   
+ Bind:   WEAK Type:   NOTYPE NDX:   0 Size:   0 Value:   0
+ [112]    Name:                                     _fbss   
+ Bind:   GLOBAL Type:   NOTYPE NDX:   9 Size:   0 Value:   70968
+ [113]    Name:                     __register_frame_info   
+ Bind:   WEAK Type:   NOTYPE NDX:   0 Size:   0 Value:   0
+ [114]    Name:                                     close   
+ Bind:   GLOBAL Type:   FUNC NDX:   1 Size:   32 Value:   67256
+ [115]    Name:                                      free   
+ Bind:   WEAK Type:   NOTYPE NDX:   0 Size:   0 Value:   0
