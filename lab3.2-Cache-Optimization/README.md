@@ -1,6 +1,6 @@
 # Lab 3.2 Cache管理策略优化
 
-###实验目标
+### 实验目标
 本lab能够实现的Cache性能优化如下：
 
 1. cache替换策略：用ARC替代LRU
@@ -9,7 +9,7 @@
 4. 各级cache的miss rate以及总的AMAT
 
 ****************
-###运行流程
+### 运行流程
 进入lab3.2-prefetch+bypass+arc文件夹
 *MakeFile* 编译,在linux终端键入
 
