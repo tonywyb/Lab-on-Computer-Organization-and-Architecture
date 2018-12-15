@@ -1,6 +1,6 @@
 # Lab 3.1 Cache-Simulation
 
-###实验目标
+### 实验目标
 本lab能够实现：
 
 1. elf格式可执行文件的读取与自动分析，并将所需代码和数据自动加载到内存
@@ -10,7 +10,7 @@
 5. 在lab2.2流水线基础上嵌入支持三级Cache，其中L1将数据指令分开
 
 *****************
-###文件内容
+### 文件内容
 解压压缩包后有：
 
 1. 1500012946\_王彦斌\_lab3.1实验报告.pdf
@@ -19,17 +19,17 @@
 4. readme.md
 
 ****************
-###执行脚本
-##parta
+### 执行脚本
+## parta
 无执行脚本，运行后根据输出提示依次输入**cache size**, **line size**,**associativity**,**Write missing policy**，**Write hit policy**，**Cache hit latency**。
 
 输出结果包括**Hit times**，**Miss times**， **Hit rate**，**Miss rate**， 
 **Request access time**。
-##partb
+## partb
 提供执行脚本**run.sh**能够完成编译并将测试样例中的可执行文件进行elf解析与指令模拟，结果分别存放在后缀*_elf.txt*和*_sim.txt*的文件中。*_sim.txt*的文件中包含pipelined的debug输出，结尾有cache的miss rate，hit time等模拟cache数据。
 **************
-###调试/运行流程
-##parta
+### 调试/运行流程
+## parta
 *MakeFile* 编译,在linux终端键入
 
 ```
@@ -49,7 +49,7 @@ $ ./sim 1.trace
 $ ./sim 2.trace
 ```
 
-##partb
+## partb
 *Makefile*编译,在linux终端键入
 
 ```
